@@ -250,4 +250,24 @@
    */
   new PureCounter();
 
+
+var liens = document.getElementsByClassName('docu');
+
+for (var i = 0; i < liens.length; i++) {
+  liens[i].addEventListener('click', function(e) {
+    e.preventDefault(); // Empêche le comportement par défaut du lien
+
+    window.open(this.href, '_blank'); // Ouvre la nouvelle page dans un nouvel onglet ou une nouvelle fenêtre
+
+    window.close(); // Ferme l'ancienne page (cette instruction peut être bloquée par certains navigateurs par mesure de sécurité)
+  });
+}
+
+
+
+
+
+
+
+
 })()
