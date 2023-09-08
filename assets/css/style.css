@@ -933,6 +933,10 @@ section .container {
   height : 12rem;
 }
 
+.returnButton {
+  margin-top: -1rem;
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -944,7 +948,10 @@ section .container {
   right: 0;
   top: 0;
   bottom: 0;
-  overflow-y: auto;
+}
+
+.overFlow {
+  overflow-y: hidden;
 }
 
 .portfolio-details .container {
