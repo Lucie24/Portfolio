@@ -937,6 +937,15 @@ section .container {
   margin-top: -1rem;
 }
 
+.gsb{
+  margin-top: 15px ;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/

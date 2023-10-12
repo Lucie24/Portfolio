@@ -50,10 +50,11 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link active" href="index.php">Accueil</a></li>
-          <li><a class="nav-link" href="#about">Mes compétences</a></li>
-          <li><a class="nav-link" href="#resume">Mon parcours</a></li>
+          <li><a class="nav-link" href="#about">Profil</a></li>
+          <li><a class="nav-link" href="#resume">Veille technologique</a></li>
+          <li><a class="nav-link" href="#stages">Stages</a></li>
           <li><a class="nav-link" href="#services">Documentations</a></li>
-          <li><a class="nav-link" href="#certifications">Mes certifications</a></li>
+          <li><a class="nav-link" href="#certifications">Certifications</a></li>
           <!-- <li><a class="nav-link" href="#contact">Contact</a></li> -->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -115,6 +116,18 @@
 
     </div><!-- End About Me -->
 
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Présentation du BTS SIO</h2>
+      </div>
+
+      <div class="section-title">
+        <h2>Présentation de la spécialité SISR</h2>
+      </div>
+
+    </div>
+
     <!-- ======= Counts =======
     <div class="counts container">
 
@@ -155,6 +168,69 @@
       </div>
 
     </div> End Counts -->
+
+    <!-- ======= Resume ========-->
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Mon parcours</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="resume-title">Qui suis-je ?</h3>
+          <div class="resume-item pb-0">
+            <h4>Lucie DUMAS</h4>
+            <p><em>Actuellement en 1ère année de BTS SIO spécialité SISR, je prévoie de continuer mes études à l'école d'ingénieur de Limoges 
+              3IL en alternance en suivant le bachelor Infrastructures et Cybersécurité puis le mastère Expert Réseaux, Infrastructures et Sécurité (ERIS).</em></p>
+            <p>
+            <ul>
+              <li>226 Boulevard Vanteaux, 87000 Limoges</li>
+              <li>06 33 35 89 35</li>
+              <li>luciedumas24430pro@gmail.com</li>
+            </ul>
+            </p>
+          </div>
+
+          <h3 class="resume-title">Diplômes</h3>
+          <div class="resume-item">
+            <h4>BTS Service Informatique aux Organisations spécialité SISR</h4>
+            <h5>2022 - ...</h5>
+            <p><em>Institution privée Beaupeyrat, Limoges</em></p>
+          </div>
+          <div class="resume-item">
+            <h4>DEUST Webmaster et Métiers de l'Internet</h4>
+            <h5>2020 - 2022</h5>
+            <p><em>Faculté des Sciences et Techniques, Limoges</em></p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h3 class="resume-title">Stages en entreprise</h3>
+          <div class="resume-item">
+            <h4>Développeuse FullStack</h4>
+            <h5>LibNGo, 33522 Talence</h5>
+            <p><em>2022</em></p>
+            <p>
+              Stage de validation de diplôme d'une durée
+              de deux mois en tant que développeur
+              Fullstack au sein de l'entreprise LibNGo.
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>Webmaster</h4>
+            <h5>Sud Concept, 84270 Vedène</h5>
+            <p><em>2021</em></p>
+            <p>
+              Stage d'immersion dans une entreprise
+              d'une durée de deux mois afin de faire la
+              refonte des différents sites internet de
+              l'entreprise en HTML/CSS grâce à Bootstrap.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
 
     <!-- ======= Interests ======= -->
     <div class="interests container">
@@ -379,63 +455,42 @@
     <div class="container">
 
       <div class="section-title">
-        <h2>Mon parcours</h2>
-        <p>A propos de moi</p>
+        <h2>Veille technologique</h2>
+        <p>L'ordinateur quantique</p>
       </div>
 
-      <div class="row">
-        <div class="col-lg-6">
-          <h3 class="resume-title">Qui suis-je ?</h3>
-          <div class="resume-item pb-0">
-            <h4>Lucie DUMAS</h4>
-            <p><em>Actuellement en 1ère année de BTS SIO spécialité SISR, je prévoie de continuer mes études à l'école d'ingénieur de Limoges 
-              3IL en alternance en suivant le bachelor Infrastructures et Cybersécurité puis le mastère Expert Réseaux, Infrastructures et Sécurité (ERIS).</em></p>
-            <p>
-            <ul>
-              <li>226 Boulevard Vanteaux, 87000 Limoges</li>
-              <li>06 33 35 89 35</li>
-              <li>luciedumas24430pro@gmail.com</li>
-            </ul>
-            </p>
-          </div>
-
-          <h3 class="resume-title">Diplômes</h3>
-          <div class="resume-item">
-            <h4>BTS Service Informatique aux Organisations spécialité SISR</h4>
-            <h5>2022 - ...</h5>
-            <p><em>Institution privée Beaupeyrat, Limoges</em></p>
-          </div>
-          <div class="resume-item">
-            <h4>DEUST Webmaster et Métiers de l'Internet</h4>
-            <h5>2020 - 2022</h5>
-            <p><em>Faculté des Sciences et Techniques, Limoges</em></p>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <h3 class="resume-title">Stages en entreprise</h3>
-          <div class="resume-item">
-            <h4>Développeuse FullStack</h4>
-            <h5>LibNGo, 33522 Talence</h5>
-            <p><em>2022</em></p>
-            <p>
-              Stage de validation de diplôme d'une durée
-              de deux mois en tant que développeur
-              Fullstack au sein de l'entreprise LibNGo.
-            </p>
-          </div>
-          <div class="resume-item">
-            <h4>Webmaster</h4>
-            <h5>Sud Concept, 84270 Vedène</h5>
-            <p><em>2021</em></p>
-            <p>
-              Stage d'immersion dans une entreprise
-              d'une durée de deux mois afin de faire la
-              refonte des différents sites internet de
-              l'entreprise en HTML/CSS grâce à Bootstrap.
-            </p>
-          </div>
-        </div>
+      <div class="section-title">
+        <p>Qu'est ce qu'une veille technologique ?</p>
       </div>
+
+      <div class="section-title">
+        <p>Pourquoi ce sujet ?</p>
+      </div>
+
+      <div class="section-title">
+        <p>Les outils utilisés</p>
+      </div>
+
+      <div class="section-title">
+        <p>Les informations récupérées</p>
+      </div>
+
+    </div>
+  </section><!-- End Resume Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="stages" class="resume">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Stages</h2>
+        <p>L'Hôpital privé Francheville (24)</p>
+      </div>
+      
+      <div class="section-title">
+        <p>Stage 2</p>
+      </div>
+      
 
     </div>
   </section><!-- End Resume Section -->
@@ -445,7 +500,7 @@
     <div class="container">
 
       <div class="section-title">
-        <h2>Documentation</h2>
+        <h2>Documentations</h2>
         <p>Projet m2l.org</p>
       </div>
 
@@ -454,6 +509,56 @@
           <div class="icon-box">
             <div class="icon"><i class="bx bx-file"></i></div>
             <h4><?php echo "<a href='documentation.php?id=1'>"; ?> Mise en place d'un réseau informatique</a></h4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><?php echo "<a href='documentation.php?id=2'>"; ?>Installation et mise en place de LXC</a></h4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><?php echo "<a href='documentation.php?id=3'>"; ?>Installation et mise en place de LAMP</a></h4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><a href="">Nemo Enim</a></h4>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><a href="">Dele cardo</a></h4>
+            <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><a href="">Divera don</a></h4>
+            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="section-title gsb">Projet gsb.org</p>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><?php echo "<a href='documentation.php?id=1'>"; ?>Installation et configuration de Proxmox VE</a></h4>
           </div>
         </div>
 
