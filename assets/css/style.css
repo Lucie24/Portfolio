@@ -406,6 +406,18 @@ section .container {
   color: #fff;
 }
 
+.section-title-vt {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 20px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -1208,4 +1220,39 @@ section .container {
 
 .credits a:hover {
   color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Class personnalisées
+--------------------------------------------------------------*/
+
+.livres {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.plivres {
+  margin-top: 1rem;
+}
+
+.livre1 {
+  width: 20%;
+  height: auto;
+}
+
+/*--------------------------------------------------------------
+# Autres
+--------------------------------------------------------------*/
+
+.marginTop {
+  margin-top: 2rem;
+}
+
+.textJustify {
+  text-align: justify;
+}
+
+.textIndent {
+  text-indent: 2rem;
 }

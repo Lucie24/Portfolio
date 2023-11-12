@@ -59,14 +59,6 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-      </div>
-
     </div>
   </header><!-- End Header -->
 
@@ -108,8 +100,8 @@
             </div>
           </div>
           <p>
-           Actuellement en 1ère année de BTS SIO spécialité SISR, je prévoie de continuer mes études à l'école d'ingénieur de Limoges 
-           3IL en alternance en suivant le bachelor Infrastructures et Cybersécurité puis le mastère Expert Réseaux, Infrastructures et Sécurité (ERIS).
+            Actuellement en 1ère année de BTS SIO spécialité SISR, je prévoie de continuer mes études à l'école d'ingénieur de Limoges
+            3IL en alternance en suivant le bachelor Infrastructures et Cybersécurité puis le mastère Expert Réseaux, Infrastructures et Sécurité (ERIS).
           </p>
         </div>
       </div>
@@ -181,11 +173,11 @@
           <h3 class="resume-title">Qui suis-je ?</h3>
           <div class="resume-item pb-0">
             <h4>Lucie DUMAS</h4>
-            <p><em>Actuellement en 1ère année de BTS SIO spécialité SISR, je prévoie de continuer mes études à l'école d'ingénieur de Limoges 
-              3IL en alternance en suivant le bachelor Infrastructures et Cybersécurité puis le mastère Expert Réseaux, Infrastructures et Sécurité (ERIS).</em></p>
+            <p><em>Actuellement en 2ème année de BTS SIO spécialité SISR, je prévoie de continuer mes études à l'école d'ingénieur de Limoges
+                3IL en alternance en suivant le bachelor Infrastructures et Cybersécurité puis le mastère Expert Réseaux, Infrastructures et Sécurité (ERIS).</em></p>
             <p>
             <ul>
-              <li>226 Boulevard Vanteaux, 87000 Limoges</li>
+              <li>11 rue du Commandant Eugène Pinte, 87000 Limoges</li>
               <li>06 33 35 89 35</li>
               <li>luciedumas24430pro@gmail.com</li>
             </ul>
@@ -242,8 +234,8 @@
       <div class="row">
         <div class="col-lg-3 col-md-4">
           <div class="icon-box">
-            <i class="ri-store-line" style="color: #ffbb2c;"></i>
-            <h3>Lorem Ipsum</h3>
+            <i class="ri-mail-send-line" style="color: #ffbb2c;"></i>
+            <h3>SMPT</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
@@ -254,14 +246,14 @@
         </div>
         <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
           <div class="icon-box">
-            <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-            <h3>Sed perspiciatis</h3>
+            <i class="ri-global-line" style="color: #e80368;"></i>
+            <h3>DNS</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
           <div class="icon-box">
-            <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-            <h3>Magni Dolores</h3>
+            <i class="ri-at-line" style="color: #e361ff;"></i>
+            <h3>DHCP</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
@@ -272,32 +264,32 @@
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
-            <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-            <h3>Eiusmod Tempor</h3>
+            <i class="ri-save-line" style="color: #ffa76e;"></i>
+            <h3>Serveur de Sauvegarde</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
-            <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-            <h3>Midela Teren</h3>
+            <i class="ri-file-transfer-line" style="color: #11dbcf;"></i>
+            <h3>FTP</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
-            <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
-            <h3>Pira Neve</h3>
+          <i class="ri-git-repository-private-line" style="color: #4233ff;"></i>
+            <h3>VLAN</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
-            <i class="ri-anchor-line" style="color: #b2904f;"></i>
-            <h3>Dirada Pack</h3>
+            <i class="ri-terminal-box-line" style="color: #b2904f;"></i>
+            <h3>Bash/Python</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
-            <i class="ri-disc-line" style="color: #b20969;"></i>
-            <h3>Moton Ideal</h3>
+            <i class="ri-code-line" style="color: #b20969;"></i>
+            <h3>HTML/CSS/JS/PHP</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
@@ -399,7 +391,7 @@
                 <a href="https://github.com/Lucie24/Sutom" target="_blank">https://github.com/Lucie24/Sutom</a>
               </p>
               <h3>
-                <a href="https://github.com/Lucie24/Sutom" target="_blank">SUTOM</a>  
+                <a href="https://github.com/Lucie24/Sutom" target="_blank">SUTOM</a>
               </h3>
               <h4>Github</h4>
             </div>
@@ -459,38 +451,85 @@
         <p>L'ordinateur quantique</p>
       </div>
 
-      <div class="section-title">
-        <p>Qu'est ce qu'une veille technologique ?</p>
+      <div class="section-title marginTop">
+        <h2>Qu'est ce qu'une veille technologique ?</h2>
+      </div>
+      <p class="marginTop textJustify textIndent">La veille technologique est un processus systématique de collecte, de suivi, d'analyse et de 
+      diffusion d'informations pertinentes sur les avancées, les évolutions et les tendances dans le domaine de la technologie. 
+      L'objectif principal de la veille technologique est de permettre aux organisations, aux entreprises et aux professionnels de 
+      rester informés des développements technologiques susceptibles d'affecter leurs activités, de prendre des décisions éclairées et 
+      de rester compétitifs sur le marché.</p>
+
+      <div class="section-title marginTop">
+        <h2>Pourquoi ce sujet ?</h2>
       </div>
 
-      <div class="section-title">
-        <p>Pourquoi ce sujet ?</p>
+      <div class="section-title marginTop">
+        <h2>Les outils utilisés</h2>
       </div>
 
-      <div class="section-title">
-        <p>Les outils utilisés</p>
+      <p class="marginTop textJustify textIndent">Dans un premier temps, il m'a fallu acquérir le vocabulaire lié au développement de 
+      l'ordinateur quantique, donc par extension de la physique quantique. Pour ce faire, je me suis aidée de plusieurs ouvrages :</p>
+
+      <div class="livres">
+        <p class="plivres">50 clés pour comprendre la physique quantique, Joanne Baker, Dunod</p>
+        <img src="assets/img/livres/livre1.jpg" class="livre1 marginTop">
       </div>
 
-      <div class="section-title">
-        <p>Les informations récupérées</p>
+      <div class="livres">
+        <p class="plivres"></p>
+        <img src="" class="livre2 marginTop">
       </div>
+
+      <div class="livres">
+        <p class="plivres"></p>
+        <img src="" class="livre3 marginTop">
+      </div>
+
+      <p class="marginTop textJustify textIndent">Pour mettre en place cette veille technologique, j'ai décidé d'utiliser l'outil Feedly,
+      en faisant une collecte hebdomadaire des informations trouvées</p>
+
+      <div class="section-title marginTop">
+        <h2>Les informations récupérées</h2>
+      </div>
+
+      <div class="section-title marginTop">
+        <h2>Les conclusions de cette veille technologique</h2>
+      </div>
+
+      <p class="marginTop textJustify textIndent">Le développement de l'ordinateur quantique représente une avancée extraordinaire dans le domaine de la technologie. Ces 
+        machines promettent de révolutionner notre capacité à résoudre des problèmes complexes en un temps record, en exploitant les 
+        lois de la mécanique quantique. Les ordinateurs quantiques ouvrent la porte à des avancées majeures dans des domaines tels 
+        que la cryptographie, la résolution de problèmes d'optimisation, 
+        et bien plus encore. Leur potentiel pour transformer notre compréhension du monde et notre capacité à relever des défis 
+        fondamentaux est passionnant, et le futur s'annonce prometteur pour cette technologie révolutionnaire.</p>
+        
+      <p class="marginTop textJustify textIndent">Cependant, cette nouvelle puissance de calcul apporte aussi son lot de préoccupations en matière de 
+        cybersécurité. Les ordinateurs quantiques sont capables de casser rapidement des méthodes de cryptographie actuelles, ce qui 
+        pourrait compromettre la sécurité des communications, des transactions financières, et même des données sensibles. Les 
+        chercheurs travaillent activement sur le développement de nouvelles techniques de chiffrement résistantes aux attaques 
+        quantiques, mais la transition vers ces nouvelles normes sera un défi. De plus, il y a des inquiétudes concernant la 
+        possibilité que des acteurs malveillants utilisent la puissance de calcul quantique pour des activités malveillantes, telles 
+        que le déchiffrement de données sensibles ou la manipulation de systèmes de sécurité. Il est essentiel de mettre en place des 
+        mesures de protection adéquates pour faire face à ces menaces potentielles tout en exploitant les avantages offerts par 
+        l'ordinateur quantique.</p>
 
     </div>
   </section><!-- End Resume Section -->
 
-    <!-- ======= Resume Section ======= -->
-    <section id="stages" class="resume">
+  <!-- ======= Resume Section ======= -->
+  <section id="stages" class="resume">
     <div class="container">
 
       <div class="section-title">
         <h2>Stages</h2>
         <p>L'Hôpital privé Francheville (24)</p>
       </div>
-      
+
       <div class="section-title">
         <p>Stage 2</p>
       </div>
-      
+
 
     </div>
   </section><!-- End Resume Section -->
