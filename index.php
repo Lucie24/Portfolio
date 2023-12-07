@@ -78,10 +78,7 @@
           <img src="assets/img/zenou.png" class="img-fluid" alt="">
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <h3>Future administratrice réseau</h3>
-          <p class="fst-italic">
-            Je voulais te faire une blague UDP mais je ne suis pas sûre que tu la captes.
-          </p>
+          <h3>Etudiante BTS SIO</h3>
           <div class="row">
             <div class="col-lg-6">
               <ul>
@@ -99,7 +96,7 @@
               </ul>
             </div>
           </div>
-          <p>
+          <p class="textJustify">
             Actuellement en 1ère année de BTS SIO spécialité SISR, je prévoie de continuer mes études à l'école d'ingénieur de Limoges
             3IL en alternance en suivant le bachelor Infrastructures et Cybersécurité puis le mastère Expert Réseaux, Infrastructures et Sécurité (ERIS).
           </p>
@@ -173,7 +170,7 @@
           <h3 class="resume-title">Qui suis-je ?</h3>
           <div class="resume-item pb-0">
             <h4>Lucie DUMAS</h4>
-            <p><em>Actuellement en 2ème année de BTS SIO spécialité SISR, je prévoie de continuer mes études à l'école d'ingénieur de Limoges
+            <p class="textJustify"><em>Actuellement en 2ème année de BTS SIO spécialité SISR, je prévoie de continuer mes études à l'école d'ingénieur de Limoges
                 3IL en alternance en suivant le bachelor Infrastructures et Cybersécurité puis le mastère Expert Réseaux, Infrastructures et Sécurité (ERIS).</em></p>
             <p>
             <ul>
@@ -235,7 +232,7 @@
         <div class="col-lg-3 col-md-4">
           <div class="icon-box">
             <i class="ri-mail-send-line" style="color: #ffbb2c;"></i>
-            <h3>SMPT</h3>
+            <h3>SMTP</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
@@ -294,8 +291,8 @@
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
-            <i class="ri-base-station-line" style="color: #ff5828;"></i>
-            <h3>Verdo Park</h3>
+            <i class="ri-fire-line" style="color: #ff5828;"></i>
+            <h3>Pare-feux</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
