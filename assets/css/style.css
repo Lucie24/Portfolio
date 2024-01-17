@@ -1241,6 +1241,76 @@ section .container {
   height: auto;
 }
 
+.timeline ul {
+  padding: 50px 0;;
+}
+
+/* Create a line */
+
+.timeline ul li {
+  list-style: none;
+  position: relative;
+  width: 7px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background-color: #18d26e;
+}
+
+.timeline ul li .box {
+  position: relative;
+  bottom: 0;
+  width: 450px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.timeline h3{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  padding: 1rem 0rem 1rem 0.7rem;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  color: #fff;
+  font-size: 1.5rem;
+  background-color: #18d26e;
+}
+
+.timeline p {
+  font-size: medium;
+  padding: 1rem 0 1rem 1rem;
+  color: #000;
+}
+
+.timeline .source {
+  font-size: medium;
+  padding: 1rem 0 1rem 1rem;
+  color: #aaaaaa;
+}
+
+.timeline a {
+  margin: 0.5rem 0rem 1rem 1rem;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  background: transparent;
+  transition: all 0.3% ease-in;
+  cursor: pointer;
+}
+
+.timeline a:hover {
+  background-color: #18d26e;
+  color: white;
+}
+
+.point {
+  background-color: #fff;
+  padding: 0.2rem 0.8rem;
+  border-radius: 10px;
+  color: #aaaaaa;
+  font-size: 0.9rem;
+  margin: 0 0.5rem;
+}
+
 /*--------------------------------------------------------------
 # Autres
 --------------------------------------------------------------*/

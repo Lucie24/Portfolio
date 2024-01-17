@@ -488,6 +488,69 @@
 
       <div class="section-title marginTop">
         <h2>Les informations récupérées</h2>
+
+        <div class="timeline">
+          
+          <!-- Vertical Timeline -->
+          <ul>
+
+            <!-- First Item -->
+            <li>
+              <i class="fa-brands fa-html5"></i>
+              <div class="box">
+                <h3 class="titre"><span class="point">date </span>Titre de l'actu la plus récente</h3>
+                <p>Résumé de l'actu</p>
+                <p class="source">Source : </p>
+                <a href="#">En savoir plus</a>
+              </div>
+            </li>
+
+            <!-- Second Item -->
+            <li>
+              <i class="fa-brands fa-css3"></i>
+              <div class="box">
+                <h3 class="titre"><span class="point">date </span>Titre de l'actu la plus récente</h3>
+                <p>Résumé de l'actu</p>
+                <p class="source">Source : </p>
+                <a href="#">En savoir plus</a>
+              </div>
+            </li>
+
+            <!-- Third Item -->
+            <li>
+              <i class="fa-brands fa-css3"></i>
+              <div class="box">
+                <h3 class="titre"><span class="point">date </span>Titre de l'actu la plus récente</h3>
+                <p>Résumé de l'actu</p>
+                <p class="source">Source : </p>
+                <a href="#">En savoir plus</a>
+              </div>
+            </li>
+
+            <!-- Fourth Item -->
+            <li>
+              <i class="fa-brands fa-css3"></i>
+              <div class="box">
+                <h3 class="titre"><span class="point">date </span>Titre de l'actu la plus récente</h3>
+                <p>Résumé de l'actu</p>
+                <p class="source">Source : </p>
+                <a href="#">En savoir plus</a>
+              </div>
+            </li>
+
+            <!-- Fifth Item -->
+            <li>
+              <i class="fa-brands fa-css3"></i>
+              <div class="box">
+                <h3 class="titre"><span class="point">date </span>Titre de l'actu la plus récente</h3>
+                <p>Résumé de l'actu</p>
+                <p class="source">Source : </p>
+                <a href="#">En savoir plus</a>
+              </div>
+            </li>
+          </ul>
+        
+        </div>
       </div>
 
       <div class="section-title marginTop">
