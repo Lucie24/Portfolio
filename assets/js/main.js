@@ -263,11 +263,25 @@ for (var i = 0; i < liens.length; i++) {
   });
 }
 
+  // timeline
+  const boxes = document.querySelectorAll('.box');
 
+  window.addEventListener('scroll', DisplayContent);
 
+  function DisplayContent() {
+    const TriggerBottom = (window.innerHeight /5)*4;
 
+    boxes.forEach((box)=>{
+      const topBox = box.getBoundingClientRect().top;
 
-
+      if (topBox < TriggerBottom) {
+        box.classList.add("show");
+      }
+      else {
+        box.classList.remove("show");
+      }
+    })
+  }
 
 
 })()

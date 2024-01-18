@@ -1241,11 +1241,13 @@ section .container {
   height: auto;
 }
 
+/*--------------------------------------------------------------
+# Vertical Timeline
+--------------------------------------------------------------*/
+
 .timeline ul {
   padding: 50px 0;;
 }
-
-/* Create a line */
 
 .timeline ul li {
   list-style: none;
@@ -1256,6 +1258,19 @@ section .container {
   background-color: #18d26e;
 }
 
+/* Right side */
+
+.timeline ul li:nth-child(odd) .box{
+  left: 50px;
+}
+
+/* Left side */
+
+.timeline ul li:nth-child(even) .box{
+  left: -500px;
+  transform: translateX(-400%);
+}
+
 .timeline ul li .box {
   position: relative;
   bottom: 0;
@@ -1263,6 +1278,24 @@ section .container {
   background-color: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
+  transform: translateX(400%);
+  transition: all 0.5s ease-in-out;
+}
+
+.timeline ul li .box.show {
+  transform: translateX(0%);
+  transition: all 0.5s ease-in-out;
+}
+
+.timeline ul li i {
+  position: absolute;
+  left: 50%;
+  top: 20;
+  width: 20px;
+  height: 20px;
+  background: white;
+  transform: translateX(-50%);
+  border-radius: 50%;
 }
 
 .timeline h3{
@@ -1281,23 +1314,46 @@ section .container {
   color: #000;
 }
 
+.timeline .box:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  width: 0px;
+  right: 0px;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) .box:before {
+  left: -15px;
+  border-width: 8px 16px 8px 0px;
+  border-color: transparent #18d26e;
+}
+
+.timeline ul li:nth-child(even) .box:before {
+  right: -15px;
+  border-width: 8px 0px 8px 16px;
+  border-color: transparent #18d26e;
+}
+
 .timeline .source {
   font-size: medium;
   padding: 1rem 0 1rem 1rem;
   color: #aaaaaa;
 }
 
-.timeline a {
+.timeline button {
   margin: 0.5rem 0rem 1rem 1rem;
   outline: none;
   padding: 0.5rem 1rem;
   border-radius: 50px;
   background: transparent;
-  transition: all 0.3% ease-in;
+  transition: all 0.2s ease-in;
   cursor: pointer;
+  color: #18d26e;
+  border: 1px solid #18d26e;
 }
 
-.timeline a:hover {
+.timeline button:hover {
   background-color: #18d26e;
   color: white;
 }
@@ -1309,6 +1365,40 @@ section .container {
   color: #aaaaaa;
   font-size: 0.9rem;
   margin: 0 0.5rem;
+}
+
+@media(max-width: 1200px) {
+  .timeline ul li .box {
+    width: 350px;
+  }
+
+  .timeline ul li:nth-child(odd) .box {
+    left: 40px;
+  }
+
+  .timeline ul li:nth-child(even) .box {
+    left: -390px;
+  }
+}
+
+@media(max-width: 1000px) {
+  .timeline ul li {
+    margin-left: 30px;
+  }
+
+  .timeline ul li .box {
+    width: calc(100vw -90px)
+  }
+
+  .timeline ul li:nth-child(even) .box{
+    left: 40px;
+  }
+
+  .timeline ul li:nth-child(even) .box:before{
+    left: -15px;
+    border-width: 8px 16px 8px 0px;
+    border-color: transparent #18d26e;
+  }
 }
 
 /*--------------------------------------------------------------

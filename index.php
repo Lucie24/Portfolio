@@ -501,7 +501,7 @@
                 <h3 class="titre"><span class="point">date </span>Titre de l'actu la plus récente</h3>
                 <p>Résumé de l'actu</p>
                 <p class="source">Source : </p>
-                <a href="#">En savoir plus</a>
+                <button>En savoir plus</a>
               </div>
             </li>
 
@@ -512,7 +512,7 @@
                 <h3 class="titre"><span class="point">date </span>Titre de l'actu la plus récente</h3>
                 <p>Résumé de l'actu</p>
                 <p class="source">Source : </p>
-                <a href="#">En savoir plus</a>
+                <button>En savoir plus</a>
               </div>
             </li>
 
@@ -523,7 +523,7 @@
                 <h3 class="titre"><span class="point">date </span>Titre de l'actu la plus récente</h3>
                 <p>Résumé de l'actu</p>
                 <p class="source">Source : </p>
-                <a href="#">En savoir plus</a>
+                <button>En savoir plus</a>
               </div>
             </li>
 
@@ -534,7 +534,7 @@
                 <h3 class="titre"><span class="point">date </span>Titre de l'actu la plus récente</h3>
                 <p>Résumé de l'actu</p>
                 <p class="source">Source : </p>
-                <a href="#">En savoir plus</a>
+                <button>En savoir plus</a>
               </div>
             </li>
 
@@ -545,7 +545,7 @@
                 <h3 class="titre"><span class="point">date </span>Titre de l'actu la plus récente</h3>
                 <p>Résumé de l'actu</p>
                 <p class="source">Source : </p>
-                <a href="#">En savoir plus</a>
+                <button>En savoir plus</a>
               </div>
             </li>
           </ul>
