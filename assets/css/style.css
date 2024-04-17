@@ -1354,7 +1354,6 @@ section .container {
 }
 
 .timeline button:hover {
-  background-color: #18d26e;
   color: white;
 }
 
@@ -1365,6 +1364,11 @@ section .container {
   color: #aaaaaa;
   font-size: 0.9rem;
   margin: 0 0.5rem;
+}
+
+.button_vt:hover {
+  color: white;
+  background: transparent;
 }
 
 @media(max-width: 1200px) {

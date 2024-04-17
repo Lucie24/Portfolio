@@ -51,7 +51,7 @@
 
           <?php
             $id = $_GET["id"];
-            echo '<iframe src="assets/pdf/' . $id . '.pdf" width="500" height="600vmax" allowfullscreen webkitallowfullscreen>';
+            echo '<iframe src="assets/pdf/' . $id . '.pdf" width="500" height="800vmax" allowfullscreen webkitallowfullscreen>';
           ?>
 
         </div>

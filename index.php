@@ -500,8 +500,8 @@
               <div class="box">
                 <h3 class="titre"><span class="point">date </span>Titre de l'actu la plus récente</h3>
                 <p>Résumé de l'actu</p>
-                <p class="source">Source : </p>
-                <button>En savoir plus</a>
+                <p class="source">Source : Quantum Computers News -- ScienceDaily</p>
+                <a href=""><button>En savoir plus</button></a>
               </div>
             </li>
 
@@ -511,8 +511,8 @@
               <div class="box">
                 <h3 class="titre"><span class="point">date </span>Titre de l'actu la plus récente</h3>
                 <p>Résumé de l'actu</p>
-                <p class="source">Source : </p>
-                <button>En savoir plus</a>
+                <p class="source">Source : Quantum Computers News -- ScienceDaily</p>
+                <a href=""><button>En savoir plus</button></a>
               </div>
             </li>
 
@@ -522,8 +522,8 @@
               <div class="box">
                 <h3 class="titre"><span class="point">date </span>Titre de l'actu la plus récente</h3>
                 <p>Résumé de l'actu</p>
-                <p class="source">Source : </p>
-                <button>En savoir plus</a>
+                <p class="source">Source : Quantum Computers News -- ScienceDaily</p>
+                <a href=""><button>En savoir plus</button></a>
               </div>
             </li>
 
@@ -533,8 +533,8 @@
               <div class="box">
                 <h3 class="titre"><span class="point">date </span>Titre de l'actu la plus récente</h3>
                 <p>Résumé de l'actu</p>
-                <p class="source">Source : </p>
-                <button>En savoir plus</a>
+                <p class="source">Source : Quantum Computers News -- ScienceDaily</p>
+                <a href=""><button>En savoir plus</button></a>
               </div>
             </li>
 
@@ -542,10 +542,10 @@
             <li>
               <i class="fa-brands fa-css3"></i>
               <div class="box">
-                <h3 class="titre"><span class="point">date </span>Titre de l'actu la plus récente</h3>
-                <p>Résumé de l'actu</p>
-                <p class="source">Source : </p>
-                <button>En savoir plus</a>
+                <h3 class="titre"><span class="point">26 Sep 2023 </span>New qubit circuit enables quantum operations with higher accuracy</h3>
+                <p>Researchers have developed a novel superconducting qubit architecture that can perform operations between qubits with much higher accuracy than scientists have yet been able to achieve. This architecture, which utilizes a relatively new type of superconducting qubit called fluxonium, is scalable and could be used to someday build a large-scale quantum computer.</p>
+                <p class="source">Source : Quantum Computers News -- ScienceDaily</p>
+                <a href="https://www.sciencedaily.com/releases/2023/09/230925153807.htm" class="button_vt"><button>En savoir plus</button></a>
               </div>
             </li>
           </ul>
@@ -628,24 +628,49 @@
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-file"></i></div>
-            <h4><a href="">Nemo Enim</a></h4>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            <h4><?php echo "<a href='documentation.php?id=4'>"; ?>Installation et configuration DNS</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-file"></i></div>
-            <h4><a href="">Dele cardo</a></h4>
-            <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+            <h4><?php echo "<a href='documentation.php?id=5'>"; ?>Solution de sauvegarde Rsync/Cron</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-file"></i></div>
-            <h4><a href="">Divera don</a></h4>
-            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+            <h4><?php echo "<a href='documentation.php?id=6'>"; ?>Mise en place d'un serveur FTP</a></h4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><?php echo "<a href='documentation.php?id=7'>"; ?>Mise en place des Virtual Hosts : Apache2</a></h4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><?php echo "<a href='documentation.php?id=8'>"; ?>Chiffrement des communications HTTP et FTP avec SSL/TLS</a></h4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><?php echo "<a href='documentation.php?id=9'>"; ?>Mise en place d'un pare-feu / filtrage des flux</a></h4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><?php echo "<a href='documentation.php?id=10'>"; ?>Mise en place d'un serveur DHCP</a></h4>
           </div>
         </div>
 
@@ -657,46 +682,91 @@
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-file"></i></div>
-            <h4><?php echo "<a href='documentation.php?id=1'>"; ?>Installation et configuration de Proxmox VE</a></h4>
+            <h4><?php echo "<a href='documentation.php?id=11'>"; ?>Installation et configuration de Proxmox VE</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-file"></i></div>
-            <h4><?php echo "<a href='documentation.php?id=2'>"; ?>Installation et mise en place de LXC</a></h4>
+            <h4><?php echo "<a href='documentation.php?id=12'>"; ?>Installation de clés GPG et configuration de la commande sudo</a></h4>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-file"></i></div>
-            <h4><a href="">Magni Dolores</a></h4>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
-            <h4><a href="">Nemo Enim</a></h4>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            <h4><?php echo "<a href='documentation.php?id=13'>"; ?>Récupération d'une configuration avec Clonezilla</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-file"></i></div>
-            <h4><a href="">Dele cardo</a></h4>
-            <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+            <h4><?php echo "<a href='documentation.php?id=14'>"; ?>Mise en place d'un serveur de sauvegarde</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-file"></i></div>
-            <h4><a href="">Divera don</a></h4>
-            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+            <h4><?php echo "<a href='documentation.php?id=15'>"; ?>Configuration d'un serveur de bases de données</a></h4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><?php echo "<a href='documentation.php?id=16'>"; ?>Configuration IP automatique de clients</a></h4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><?php echo "<a href='documentation.php?id=17'>"; ?>DHCP Failover et Load Balancing</a></h4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><?php echo "<a href='documentation.php?id=18'>"; ?>Mise en place d'un serveur de noms</a></h4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><?php echo "<a href='documentation.php?id=19'>"; ?>Mise en place des applications Web avec Nginx</a></h4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><?php echo "<a href='documentation.php?id=20'>"; ?>Transfert de fichier / Stockage NAS</a></h4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><?php echo "<a href='documentation.php?id=21'>"; ?>Chiffrement des communications avec SSL/TLS</a></h4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><?php echo "<a href='documentation.php?id=22'>"; ?>Mise en place d'un pare-feu OPNsense</a></h4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><?php echo "<a href='documentation.php?id=23'>"; ?>Supervision de l'infrastructure avec Zabbix</a></h4>
           </div>
         </div>
 
