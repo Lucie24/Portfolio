@@ -1254,7 +1254,7 @@ section .container {
   position: relative;
   width: 7px;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 5rem;
   background-color: #18d26e;
 }
 
@@ -1309,7 +1309,7 @@ section .container {
 }
 
 .timeline p {
-  font-size: medium;
+  font-size: small;
   padding: 1rem 0 1rem 1rem;
   color: #000;
 }
@@ -1336,13 +1336,12 @@ section .container {
 }
 
 .timeline .source {
-  font-size: medium;
-  padding: 1rem 0 1rem 1rem;
+  font-size: small;
+  padding: 0 0 0 1rem;
   color: #aaaaaa;
 }
 
 .timeline button {
-  margin: 0.5rem 0rem 1rem 1rem;
   outline: none;
   padding: 0.5rem 1rem;
   border-radius: 50px;
@@ -1350,7 +1349,7 @@ section .container {
   transition: all 0.2s ease-in;
   cursor: pointer;
   color: #18d26e;
-  border: 1px solid #18d26e;
+  border: 1px solid transparent;
 }
 
 .timeline button:hover {
@@ -1366,9 +1365,25 @@ section .container {
   margin: 0 0.5rem;
 }
 
+.button_vt {
+  margin-bottom: 1rem;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  background: transparent;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+  color: #18d26e;
+  border: 1px solid #18d26e;
+}
+
 .button_vt:hover {
   color: white;
-  background: transparent;
+  background-color: #18d26e;
+}
+
+.rien {
+  margin: 0 !important;
 }
 
 @media(max-width: 1200px) {

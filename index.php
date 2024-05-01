@@ -469,13 +469,13 @@
       l'ordinateur quantique, donc par extension de la physique quantique. Pour ce faire, je me suis aidée de plusieurs ouvrages :</p>
 
       <div class="livres">
-        <p class="plivres">50 clés pour comprendre la physique quantique, Joanne Baker, Dunod</p>
+        <p class="plivres"><a href="https://www.dunod.com/sciences-techniques/50-cles-pour-comprendre-physique-quantique" target="_blank"> 50 clés pour comprendre la physique quantique, Joanne Baker, Dunod</a></p>
         <img src="assets/img/livres/livre1.jpg" class="livre1 marginTop">
       </div>
 
       <div class="livres">
-        <p class="plivres"></p>
-        <img src="" class="livre2 marginTop">
+        <p class="plivres"><a href="https://www.librairie-sciencespo.fr/livre/9782702911228-3-minutes-pour-comprendre-les-50-plus-grandes-theories-de-physique-quantique-brian-clegg/" target="_blank"> 3 minutes pour comprendre des 50 plus grandes théories de la physique quantique, Brian Clegg, le courrier du livre</a></p>
+        <img src="assets/img/livres/livre2.jpg" class="livre2 marginTop">
       </div>
 
       <div class="livres">
@@ -498,54 +498,54 @@
             <li>
               <i class="fa-brands fa-html5"></i>
               <div class="box">
-                <h3 class="titre"><span class="point">date </span>Titre de l'actu la plus récente</h3>
-                <p>Résumé de l'actu</p>
+                <h3 class="titre"><span class="point">16 Jan 2024 </span>Generating stable qubits at room temperature</h3>
+                <p>Quantum bits, or qubits, can revolutionize computing and sensing systems. However, cryogenic temperatures are required to ensure the stability of qubits. In a groundbreaking study, researchers observed stable molecular qubits of four electron spins at room temperature for the first time by suppressing the mobility of a dye molecule within a metal-organic framework. Their innovative molecular design opens doors to materials that could drive the development of quantum technologies capable of functioning in real-world conditions.</p>
                 <p class="source">Source : Quantum Computers News -- ScienceDaily</p>
-                <a href=""><button>En savoir plus</button></a>
+                <p class="rien"><a href="https://www.sciencedaily.com/releases/2024/01/240111113125.htm" class="button_vt"><button>En savoir plus</button></a></p>
+              </div>
+            </li>
+
+            <!-- First Item -->
+            <li>
+              <i class="fa-brands fa-html5"></i>
+              <div class="box">
+                <h3 class="titre"><span class="point">27 Oct 2023 </span>Major milestone achieved in new quantum computing architecture</h3>
+                <p>Researchers report a significant advance in quantum computing. They have prolonged the coherence time of their single-electron qubit to an impressive 0.1 milliseconds, nearly a thousand-fold improvement.</p>
+                <p class="source">Source : Quantum Computers News -- ScienceDaily</p>
+                <p class="rien"><a href="https://www.sciencedaily.com/releases/2023/10/231026161027.htm" class="button_vt"><button>En savoir plus</button></a></p>
+              </div>
+            </li>
+            
+            <!-- Second Item -->
+            <li>
+              <i class="fa-brands fa-html5"></i>
+              <div class="box">
+                <h3 class="titre"><span class="point">26 Sep 2023 </span>New qubit circuit enables quantum operations with higher accuracy</h3>
+                <p>Researchers have developed a novel superconducting qubit architecture that can perform operations between qubits with much higher accuracy than scientists have yet been able to achieve. This architecture, which utilizes a relatively new type of superconducting qubit called fluxonium, is scalable and could be used to someday build a large-scale quantum computer.</p>
+                <p class="source">Source : Quantum Computers News -- ScienceDaily</p>
+                <p class="rien"><a href="https://www.sciencedaily.com/releases/2023/09/230925153807.htm" class="button_vt" target="_blank"><button>En savoir plus</button></a></p>
               </div>
             </li>
 
             <!-- Second Item -->
             <li>
-              <i class="fa-brands fa-css3"></i>
+              <i class="fa-brands fa-html5"></i>
               <div class="box">
-                <h3 class="titre"><span class="point">date </span>Titre de l'actu la plus récente</h3>
-                <p>Résumé de l'actu</p>
-                <p class="source">Source : Quantum Computers News -- ScienceDaily</p>
-                <a href=""><button>En savoir plus</button></a>
+                <h3 class="titre"><span class="point">17 Fev 2023 </span>Une nouvelle avancée majeure vers des ordinateurs quantiques fonctionnels</h3>
+                <p>Interconnecter plusieurs micropuces quantiques… La prouesse peut sembler quelque peu obscure pour les non-initiés, mais elle représente une avancée majeure qui pourrait faciliter la conception d’ordinateurs quantiques fonctionnels.</p>
+                <p class="source">Source : Trust My Science</p>
+                <p class="rien"><a href="https://trustmyscience.com/nouvelle-avancee-majeure-ordinateur-quantique-fonctionnel/" class="button_vt" target="_blank"><button>En savoir plus</button></a></p>
               </div>
             </li>
 
-            <!-- Third Item -->
+            <!-- Second Item -->
             <li>
-              <i class="fa-brands fa-css3"></i>
+              <i class="fa-brands fa-html5"></i>
               <div class="box">
-                <h3 class="titre"><span class="point">date </span>Titre de l'actu la plus récente</h3>
-                <p>Résumé de l'actu</p>
-                <p class="source">Source : Quantum Computers News -- ScienceDaily</p>
-                <a href=""><button>En savoir plus</button></a>
-              </div>
-            </li>
-
-            <!-- Fourth Item -->
-            <li>
-              <i class="fa-brands fa-css3"></i>
-              <div class="box">
-                <h3 class="titre"><span class="point">date </span>Titre de l'actu la plus récente</h3>
-                <p>Résumé de l'actu</p>
-                <p class="source">Source : Quantum Computers News -- ScienceDaily</p>
-                <a href=""><button>En savoir plus</button></a>
-              </div>
-            </li>
-
-            <!-- Fifth Item -->
-            <li>
-              <i class="fa-brands fa-css3"></i>
-              <div class="box">
-                <h3 class="titre"><span class="point">26 Sep 2023 </span>New qubit circuit enables quantum operations with higher accuracy</h3>
-                <p>Researchers have developed a novel superconducting qubit architecture that can perform operations between qubits with much higher accuracy than scientists have yet been able to achieve. This architecture, which utilizes a relatively new type of superconducting qubit called fluxonium, is scalable and could be used to someday build a large-scale quantum computer.</p>
-                <p class="source">Source : Quantum Computers News -- ScienceDaily</p>
-                <a href="https://www.sciencedaily.com/releases/2023/09/230925153807.htm" class="button_vt"><button>En savoir plus</button></a>
+                <h3 class="titre"><span class="point">7 Sep 2021 </span>L’ordinateur quantique de Google valide l'existence d'un nouvel état de la matière</h3>
+                <p>Des chercheurs de Google, Princeton et Stanford expliquent avoir simulé, sur le calculateur quantique de l'entreprise, un cristal temporel.</p>
+                <p class="source">Source : L'Usine Nouvelle</p>
+                <p class="rien"><a href="https://www.usinenouvelle.com/article/l-instant-tech-l-ordinateur-quantique-de-google-valide-l-existence-d-un-nouvel-etat-de-la-matiere.N1137809" class="button_vt" target="_blank"><button>En savoir plus</button></a></p>
               </div>
             </li>
           </ul>
