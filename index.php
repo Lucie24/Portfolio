@@ -475,6 +475,8 @@
         <h2>Pourquoi ce sujet ?</h2>
       </div>
 
+      <p class="marginTop textJustify textIndent">Faire une veille technologique sur l'ordinateur quantique est essentiel dans le paysage technologique contemporain. Ces systèmes promettent de révolutionner la manière dont nous traitons l'information en exploitant les principes de la physique quantique pour effectuer des calculs incroyablement complexes à une vitesse inégalée. En surveillant de près les avancées dans ce domaine, nous sommes en mesure de comprendre les progrès réalisés, d'anticiper les opportunités et les défis à venir, et d'explorer les applications potentielles qui pourraient redéfinir des industries entières, de la cryptographie à la modélisation moléculaire. En bref, une veille technologique sur l'ordinateur quantique nous permet de rester à la pointe de l'innovation et d'adapter nos stratégies pour un avenir où les frontières de la computation traditionnelle sont redéfinies.</p>
+
       <div class="section-title marginTop">
         <h2>Les outils utilisés</h2>
       </div>
@@ -831,7 +833,6 @@
               <p>Cloud Foundations</p>
               <div class="portfolio-links">
                 <a href="assets/img/certifications/certif_aws_cloud.png" data-gallery="portfolioGalleryWeb" class="portfolio-lightbox" title="Certification Amazon Web Services sur les fondamentaux du Cloud"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details-web.html" data-gallery="portfolioDetailsGalleryWeb" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -845,12 +846,12 @@
               <p>MOOC de l'ANSSI</p>
               <div class="portfolio-links">
                 <a href="assets/img/certifications/certif_anssi.png" data-gallery="portfolioGalleryCyber" class="portfolio-lightbox" title="Certification Amazon Web Services sur les fondamentaux du Cloud"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details-cyber.html" data-gallery="portfolioDetailsGalleryCyber" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
       </div>
+
     </div>
   </section><!-- End Portfolio Section -->
 
