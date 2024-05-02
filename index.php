@@ -111,8 +111,22 @@
         <h2>Présentation du BTS SIO</h2>
       </div>
 
+
+      <div class="resume-item">
+        <p class="textIndent textJustify">Reconnu par l’Etat, le BTS SIO a remplacé depuis 2011 le BTS IG (Informatique et gestion). Cette nouvelle formule entend s’adapter aux besoins constatés sur le marché du travail de profils qualifiés en TIC (Technologies d’Information Communication). Pour remplir cet objectif particulier, elle s’est déclinée en deux spécialités distinctes : BTS SIO SISR et BTS SIO SLAM. Celles-ci, comportent des modules techniques en liaison avec l’informatique, et d’autres de culture générale et de management. Elles proposent également des périodes de stages en entreprise d’une durée de 10 à 11 semaines, afin d’initier les étudiants aux réalités du domaine professionnel et doper leur employabilité.</p>
+      </div>
+
       <div class="section-title">
         <h2>Présentation de la spécialité SISR</h2>
+      </div>
+
+      <div class="resume-item">
+        <p class="textIndent textJustify">Le BTS SIO SISR (Solution d’Infrastructure Système et Réseau), est une option du BTS SIO qui a pour but de former des techniciens réseau polyvalents. Les lauréats de ce programme ont toutes les compétences nécessaires pour la gestion et la maintenance du réseau d’une entreprise. Ils peuvent également intervenir quant à l’achat du matériel réseau employé en négociant directement avec les fournisseurs. Parmi les métiers qui leur sont accessibles nous pouvons citer :</p>
+        <ul>
+          <li>Technicien de production</li>
+          <li>Technicien réseau</li>
+          <li>Administrateur systèmes et réseaux</li>
+        </ul>
       </div>
 
     </div>
@@ -231,8 +245,8 @@
       <div class="row">
         <div class="col-lg-3 col-md-4">
           <div class="icon-box">
-            <i class="ri-mail-send-line" style="color: #ffbb2c;"></i>
-            <h3>SMTP</h3>
+            <i class="ri-mac-line" style="color: #ffbb2c;"></i>
+            <h3>Zabbix</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
@@ -273,7 +287,7 @@
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
-          <i class="ri-git-repository-private-line" style="color: #4233ff;"></i>
+            <i class="ri-git-repository-private-line" style="color: #4233ff;"></i>
             <h3>VLAN</h3>
           </div>
         </div>
@@ -298,7 +312,7 @@
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
             <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
-            <h3>Flavor Nivelanda</h3>
+            <h3>Proxy</h3>
           </div>
         </div>
       </div>
@@ -451,11 +465,11 @@
       <div class="section-title marginTop">
         <h2>Qu'est ce qu'une veille technologique ?</h2>
       </div>
-      <p class="marginTop textJustify textIndent">La veille technologique est un processus systématique de collecte, de suivi, d'analyse et de 
-      diffusion d'informations pertinentes sur les avancées, les évolutions et les tendances dans le domaine de la technologie. 
-      L'objectif principal de la veille technologique est de permettre aux organisations, aux entreprises et aux professionnels de 
-      rester informés des développements technologiques susceptibles d'affecter leurs activités, de prendre des décisions éclairées et 
-      de rester compétitifs sur le marché.</p>
+      <p class="marginTop textJustify textIndent">La veille technologique est un processus systématique de collecte, de suivi, d'analyse et de
+        diffusion d'informations pertinentes sur les avancées, les évolutions et les tendances dans le domaine de la technologie.
+        L'objectif principal de la veille technologique est de permettre aux organisations, aux entreprises et aux professionnels de
+        rester informés des développements technologiques susceptibles d'affecter leurs activités, de prendre des décisions éclairées et
+        de rester compétitifs sur le marché.</p>
 
       <div class="section-title marginTop">
         <h2>Pourquoi ce sujet ?</h2>
@@ -465,8 +479,8 @@
         <h2>Les outils utilisés</h2>
       </div>
 
-      <p class="marginTop textJustify textIndent">Dans un premier temps, il m'a fallu acquérir le vocabulaire lié au développement de 
-      l'ordinateur quantique, donc par extension de la physique quantique. Pour ce faire, je me suis aidée de plusieurs ouvrages :</p>
+      <p class="marginTop textJustify textIndent">Dans un premier temps, il m'a fallu acquérir le vocabulaire lié au développement de
+        l'ordinateur quantique, donc par extension de la physique quantique. Pour ce faire, je me suis aidée de plusieurs ouvrages :</p>
 
       <div class="livres">
         <p class="plivres"><a href="https://www.dunod.com/sciences-techniques/50-cles-pour-comprendre-physique-quantique" target="_blank"> 50 clés pour comprendre la physique quantique, Joanne Baker, Dunod</a></p>
@@ -484,13 +498,25 @@
       </div>
 
       <p class="marginTop textJustify textIndent">Pour mettre en place cette veille technologique, j'ai décidé d'utiliser l'outil Feedly,
-      en faisant une collecte hebdomadaire des informations trouvées</p>
+        en faisant une collecte hebdomadaire des informations trouvées. Feedly est un outil qui permet de s’abonner à des flux RSS et de recevoir automatiquement des contenus provenant d’autres sites web, qu’il s’agisse d’un journal ou d’un article de blog. </p>
+
+      <p class="marginTop textJustify textIndent">Voici les différentes sources dont j'ai recueilli les actualités via leur flux RSS :</p>
+
+      <div class="livres">
+        <img src="assets/img/feeds.png" class="feeds marginTop">
+      </div>
+
+      <p class="marginTop textJustify textIndent">Voici à quoi ressemble un tableau de bord :</p>
+
+      <div class="livres">
+        <img src="assets/img/tableau_feedly.png" class="feedly marginTop">
+      </div>
 
       <div class="section-title marginTop">
         <h2>Les informations récupérées</h2>
 
         <div class="timeline">
-          
+
           <!-- Vertical Timeline -->
           <ul>
 
@@ -515,7 +541,7 @@
                 <p class="rien"><a href="https://www.sciencedaily.com/releases/2023/10/231026161027.htm" class="button_vt"><button>En savoir plus</button></a></p>
               </div>
             </li>
-            
+
             <!-- Second Item -->
             <li>
               <i class="fa-brands fa-html5"></i>
@@ -549,7 +575,7 @@
               </div>
             </li>
           </ul>
-        
+
         </div>
       </div>
 
@@ -557,21 +583,21 @@
         <h2>Les conclusions de cette veille technologique</h2>
       </div>
 
-      <p class="marginTop textJustify textIndent">Le développement de l'ordinateur quantique représente une avancée extraordinaire dans le domaine de la technologie. Ces 
-        machines promettent de révolutionner notre capacité à résoudre des problèmes complexes en un temps record, en exploitant les 
-        lois de la mécanique quantique. Les ordinateurs quantiques ouvrent la porte à des avancées majeures dans des domaines tels 
-        que la cryptographie, la résolution de problèmes d'optimisation, 
-        et bien plus encore. Leur potentiel pour transformer notre compréhension du monde et notre capacité à relever des défis 
+      <p class="marginTop textJustify textIndent">Le développement de l'ordinateur quantique représente une avancée extraordinaire dans le domaine de la technologie. Ces
+        machines promettent de révolutionner notre capacité à résoudre des problèmes complexes en un temps record, en exploitant les
+        lois de la mécanique quantique. Les ordinateurs quantiques ouvrent la porte à des avancées majeures dans des domaines tels
+        que la cryptographie, la résolution de problèmes d'optimisation,
+        et bien plus encore. Leur potentiel pour transformer notre compréhension du monde et notre capacité à relever des défis
         fondamentaux est passionnant, et le futur s'annonce prometteur pour cette technologie révolutionnaire.</p>
-        
-      <p class="marginTop textJustify textIndent">Cependant, cette nouvelle puissance de calcul apporte aussi son lot de préoccupations en matière de 
-        cybersécurité. Les ordinateurs quantiques sont capables de casser rapidement des méthodes de cryptographie actuelles, ce qui 
-        pourrait compromettre la sécurité des communications, des transactions financières, et même des données sensibles. Les 
-        chercheurs travaillent activement sur le développement de nouvelles techniques de chiffrement résistantes aux attaques 
-        quantiques, mais la transition vers ces nouvelles normes sera un défi. De plus, il y a des inquiétudes concernant la 
-        possibilité que des acteurs malveillants utilisent la puissance de calcul quantique pour des activités malveillantes, telles 
-        que le déchiffrement de données sensibles ou la manipulation de systèmes de sécurité. Il est essentiel de mettre en place des 
-        mesures de protection adéquates pour faire face à ces menaces potentielles tout en exploitant les avantages offerts par 
+
+      <p class="marginTop textJustify textIndent">Cependant, cette nouvelle puissance de calcul apporte aussi son lot de préoccupations en matière de
+        cybersécurité. Les ordinateurs quantiques sont capables de casser rapidement des méthodes de cryptographie actuelles, ce qui
+        pourrait compromettre la sécurité des communications, des transactions financières, et même des données sensibles. Les
+        chercheurs travaillent activement sur le développement de nouvelles techniques de chiffrement résistantes aux attaques
+        quantiques, mais la transition vers ces nouvelles normes sera un défi. De plus, il y a des inquiétudes concernant la
+        possibilité que des acteurs malveillants utilisent la puissance de calcul quantique pour des activités malveillantes, telles
+        que le déchiffrement de données sensibles ou la manipulation de systèmes de sécurité. Il est essentiel de mettre en place des
+        mesures de protection adéquates pour faire face à ces menaces potentielles tout en exploitant les avantages offerts par
         l'ordinateur quantique.</p>
 
     </div>

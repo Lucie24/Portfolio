@@ -362,7 +362,7 @@ section.section-show {
 
 section .container {
   background: rgba(0, 0, 0, 0.9);
-  padding: 30px;
+  padding: 10px;
 }
 
 @media (max-width: 768px) {
@@ -1238,6 +1238,16 @@ section .container {
 
 .livre1 {
   width: 20%;
+  height: auto;
+}
+
+.feeds {
+  width: 50%;
+  height: auto;
+}
+
+.feedly {
+  width: 75%;
   height: auto;
 }
 
