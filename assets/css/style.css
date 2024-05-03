@@ -1251,6 +1251,29 @@ section .container {
   height: auto;
 }
 
+.organigramme {
+  width: 30%;
+  height: auto;
+}
+
+.vlans_content {
+  display: flex;
+  flex-direction: row;
+}
+
+.vlans_image {
+  flex-basis: 60%;
+  width: 70%;
+  height: auto;
+}
+
+.vlans_text {
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /*--------------------------------------------------------------
 # Vertical Timeline
 --------------------------------------------------------------*/
@@ -1436,6 +1459,10 @@ section .container {
 
 .marginTop {
   margin-top: 2rem;
+}
+
+.marginBottom {
+  margin-bottom: 2rem;
 }
 
 .textJustify {

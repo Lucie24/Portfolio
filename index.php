@@ -614,10 +614,95 @@
         <p>L'Hôpital privé Francheville (24)</p>
       </div>
 
-      <div class="section-title">
-        <p>Stage 2</p>
+      <div class="section-title marginTop">
+        <h2>Organisation de l'entreprise</h2>
       </div>
 
+      <p class="marginTop textJustify textIndent">Durant la période du 29 mai au 29 juin 2023, j’ai pu réaliser un stage d’observation aux
+        côtés des employés du service informatique de la Polyclinique Francheville appartenant au
+        Groupe Francheville Périgord Santé, qui est le premier groupe de santé privé du département
+        de Dordogne (24). Ce groupe rassemble la Polyclinique Francheville, le SMR de La Lande et
+        le centre de soins en psycho-gériatrie Le Verger des Balans.
+      </p>
+
+      <p class="marginTop textJustify textIndent">
+        Le service informatique de l’entreprise est composé de 3 salariés étant
+        donné que l’entièreté du développement web de l’entreprise ainsi qu’une partie de la sécurité
+        des systèmes sont délégués à des prestataires. Sous les ordres du Directeur Général, M.
+        MALTERRE, se trouve le Responsable de la Sécurité des Systèmes d’Information et mon
+        maître de stage, M. COLOMBERT, puis les administrateurs réseaux, M. LAVAUD et M.
+        DELBOS. C’est au sein de cette équipe que j’ai pu évoluer le temps de mon stage. 
+      </p>
+
+      <p class="marginTop textJustify textIndent">Voici l'organigramme du service informatique de l'entreprise :</p>
+
+      <div class="livres">
+        <img src="assets/img/organigramme.png" class="organigramme marginTop">
+      </div>
+
+      <div class="section-title marginTop">
+        <h2>Contexte</h2>
+      </div>
+
+      <p class="marginTop textJustify textIndent">
+        La polyclinique Francheville souhaite refaire partiellement la structure de ses VLANs
+        afin d’apporter une couche de sécurité supplémentaire à son infrastructure. Pour cela, la
+        création d’un code VBA modifiant les informations disponibles à partir du nombre d’hôte utilisé
+        renseigné à la main est nécessaire. Afin d’acquérir les connaissances et les compétences
+        nécessaires à la création de VLANs, une maquette Cisco Packet Tracer doit être créée. Enfin,
+        le travail effectué doit être intégré à la configuration du Cœur Cisco afin de mettre en
+        production le travail réalisé.
+      </p>
+
+      <div class="section-title marginTop">
+        <h2>Organisation du projet</h2>
+      </div>
+
+      <p class="marginTop textJustify textIndent">
+        Pour réaliser ce projet, nous avons eu 5 semaines. Chaque début de semaine, une
+        présentation orale de quelques minutes était organisée pour que chaque groupe explique le
+        travail réalisé la semaine passée, des détails sur celui à réaliser au cours de la semaine ainsi
+        que le résultat prévu, mais également les différentes difficultés rencontrées afin de pouvoir
+        recevoir l’aide d’une personne apte à résoudre le problème.
+      </p>
+
+      <div class="section-title marginTop">
+        <h2>Description des VLANs</h2>
+      </div>
+
+      <p class="marginTop textJustify textIndent">
+            Afin de réaliser la refonte partielle des VLANs, plusieurs feuilles Excel ont été fournies
+            contenant une liste de tous les serveurs utilisés par l’entreprise, ainsi que la liste exhaustive
+            des différents VLANs.
+      </p>
+
+      <div class="vlans_content">
+        <div class="vlans_text">
+
+          <p class="marginTop textJustify textIndent">Chaque VLAN contient les informations suivantes :</p>
+
+          <ul>
+            <li>Nom du VLAN</li>
+            <li>IP du réseau</li>
+            <li>Passerelle</li>
+            <li>Masque de sous-réseau</li>
+            <li>Hôtes disponibles</li>
+            <li>Hôtes utilisés</li>
+          </ul>
+        </div>
+
+        <div class="livres">
+          <img src="assets/img/tableau_vlans.png" class="vlans_image marginTop">
+        </div>
+      </div>
+
+      <div class="section-title marginTop">
+        <p>L'institution Beaupeyrat (87)</p>
+      </div>
+
+      <div class="section-title marginTop">
+        <h2>Contexte</h2>
+      </div>
 
     </div>
   </section><!-- End Resume Section -->
