@@ -362,7 +362,7 @@ section.section-show {
 
 section .container {
   background: rgba(0, 0, 0, 0.9);
-  padding: 10px;
+  padding: 2rem;
 }
 
 @media (max-width: 768px) {
@@ -1459,6 +1459,10 @@ section .container {
 
 .marginTop {
   margin-top: 2rem;
+}
+
+.tinyMarginBottom {
+  margin-bottom: 1rem;
 }
 
 .marginBottom {

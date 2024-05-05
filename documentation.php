@@ -51,6 +51,79 @@
 
           <?php
             $id = $_GET["id"];
+
+            switch ($id) {
+              case 1:
+                echo "<p>blblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbb lblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbbl blbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblb</p>";
+                break;
+              case 2:
+                echo "i égal " + $id;
+                break;
+              case 3:
+                echo "i égal " + $id;
+                break;
+              case 4:
+                echo "i égal " + $id;
+                break;
+              case 5:
+                echo "i égal " + $id;
+                break;
+              case 6:
+                echo "i égal " + $id;
+                break;
+              case 7:
+                echo "i égal " + $id;
+                break;
+              case 8:
+                echo "i égal " + $id;
+                break;
+              case 9:
+                echo "i égal " + $id;
+                break;
+              case 10:
+                echo "i égal " + $id;
+                break;
+              case 11:
+                echo "i égal " + $id;
+                break;
+              case 12:
+                echo "i égal " + $id;
+                break;
+              case 13:
+                echo "i égal " + $id;
+                break;
+              case 14:
+                echo "i égal " + $id;
+                break;
+              case 15:
+                echo "i égal " + $id;
+                break;
+              case 16:
+                echo "i égal " + $id;
+                break;
+              case 17:
+                echo "i égal " + $id;
+                break;
+              case 18:
+                echo "i égal " + $id;
+                break;
+              case 19:
+                echo "i égal " + $id;
+                break;
+              case 20:
+                echo "i égal " + $id;
+                break;
+              case 21:
+                echo "i égal " + $id;
+                break;
+              case 22:
+                echo "i égal " + $id;
+                break;
+              case 23:
+                echo "i égal " + $id;
+                break;               
+            }
+
             echo '<iframe src="assets/pdf/' . $id . '.pdf" width="500" height="800vmax" allowfullscreen webkitallowfullscreen>';
           ?>
 

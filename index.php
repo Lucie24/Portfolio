@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/logo.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -495,8 +495,8 @@
       </div>
 
       <div class="livres">
-        <p class="plivres"></p>
-        <img src="" class="livre3 marginTop">
+        <p class="plivres"><a href="https://booknode.com/voyage_dans_le_cosmos_tome_45_informatique_teleportation_et_cryptographie_quantiques_02463024" target="_blank"> Informatique, téléportation et cryptographie quantiques, Hubert Reeves, Voyage dans le cosmos</a></p>
+        <img src="assets/img/livres/livre3.jpg" class="livre3 marginTop">
       </div>
 
       <p class="marginTop textJustify textIndent">Pour mettre en place cette veille technologique, j'ai décidé d'utiliser l'outil Feedly,
@@ -514,6 +514,18 @@
         <img src="assets/img/tableau_feedly.png" class="feedly marginTop">
       </div>
 
+      
+      <div class="section-title marginTop">
+        <h2>Quelques définitions</h2>
+      </div>
+
+      <ul>
+        <li class="tinyMarginBottom textJustify">Ordinateur quantique : Un ordinateur quantique est un type d'ordinateur qui exploite les principes de la mécanique quantique pour effectuer des calculs. </li>
+        <li class="tinyMarginBottom textJustify">Qubits : Contrairement aux ordinateurs classiques qui utilisent des bits pour représenter des données sous forme de 0 ou de 1, les ordinateurs quantiques utilisent des qubits, qui peuvent exister dans un état de 0, de 1 ou dans une superposition de ces deux états. Cela leur permet de résoudre certains problèmes complexes beaucoup plus rapidement que les ordinateurs classiques.</li>
+        <li class="tinyMarginBottom textJustify">Intrication quantique : L'intrication quantique est un phénomène de la mécanique quantique où deux particules (ou plus) deviennent liées de manière indissociable, de sorte que l'état d'une particule ne peut être décrit qu'en référence à l'état de l'autre, quelle que soit la distance les séparant. Ce phénomène établit une corrélation entre les propriétés des particules intriquées et peut être utilisé pour des applications telles que la téléportation quantique et le cryptage quantique.</li>
+        <li class="textJustify">Spin quantique : Le spin quantique est une propriété fondamentale des particules subatomiques, telles que les électrons et les protons. Il peut être interprété comme une sorte de rotation interne de la particule, bien qu'il ne corresponde pas exactement à un mouvement de rotation classique. Le spin est une quantité importante en physique quantique, car il contribue à déterminer les propriétés magnétiques et le comportement des particules dans des situations quantiques, comme dans la formation de paires intriquées.</li>
+      </ul>
+
       <div class="section-title marginTop">
         <h2>Les informations récupérées</h2>
 
@@ -526,10 +538,10 @@
             <li>
               <i class="fa-brands fa-html5"></i>
               <div class="box">
-                <h3 class="titre"><span class="point">16 Jan 2024 </span>Generating stable qubits at room temperature</h3>
-                <p>Quantum bits, or qubits, can revolutionize computing and sensing systems. However, cryogenic temperatures are required to ensure the stability of qubits. In a groundbreaking study, researchers observed stable molecular qubits of four electron spins at room temperature for the first time by suppressing the mobility of a dye molecule within a metal-organic framework. Their innovative molecular design opens doors to materials that could drive the development of quantum technologies capable of functioning in real-world conditions.</p>
+                <h3 class="titre"><span class="point">16 Jan 2024 </span>Générer des qubits stables à température ambiante</h3>
+                <p>Les bits quantiques, ou qubits, peuvent révolutionner les systèmes informatiques et de détection. Cependant, des températures cryogéniques sont nécessaires pour assurer la stabilité des qubits. Dans une étude révolutionnaire, des chercheurs ont observé pour la première fois des qubits moléculaires stables de quatre spins électroniques à température ambiante en supprimant la mobilité d'une molécule de colorant à l'intérieur d'un cadre métallo-organique. Leur conception moléculaire innovante ouvre la voie à des matériaux qui pourraient stimuler le développement de technologies quantiques capables de fonctionner dans des conditions réelles.</p>
                 <p class="source">Source : Quantum Computers News -- ScienceDaily</p>
-                <p class="rien"><a href="https://www.sciencedaily.com/releases/2024/01/240111113125.htm" class="button_vt"><button>En savoir plus</button></a></p>
+                <p class="rien"><a href="https://www.sciencedaily.com/releases/2024/01/240111113125.htm" class="button_vt" target="_blank"><button>En savoir plus</button></a></p>
               </div>
             </li>
 
@@ -537,10 +549,10 @@
             <li>
               <i class="fa-brands fa-html5"></i>
               <div class="box">
-                <h3 class="titre"><span class="point">27 Oct 2023 </span>Major milestone achieved in new quantum computing architecture</h3>
-                <p>Researchers report a significant advance in quantum computing. They have prolonged the coherence time of their single-electron qubit to an impressive 0.1 milliseconds, nearly a thousand-fold improvement.</p>
+                <h3 class="titre"><span class="point">27 Oct 2023 </span>Importante étape franchie dans la nouvelle architecture de l'informatique quantique.</h3>
+                <p>Les chercheurs font état d'une avancée significative dans le domaine de l'informatique quantique. Ils ont prolongé le temps de cohérence de leur qubit à un seul électron à une impressionnante durée de 0,1 milliseconde, soit une amélioration presque mille fois supérieure.</p>
                 <p class="source">Source : Quantum Computers News -- ScienceDaily</p>
-                <p class="rien"><a href="https://www.sciencedaily.com/releases/2023/10/231026161027.htm" class="button_vt"><button>En savoir plus</button></a></p>
+                <p class="rien"><a href="https://www.sciencedaily.com/releases/2023/10/231026161027.htm" class="button_vt" target="_blank"><button>En savoir plus</button></a></p>
               </div>
             </li>
 
@@ -548,10 +560,10 @@
             <li>
               <i class="fa-brands fa-html5"></i>
               <div class="box">
-                <h3 class="titre"><span class="point">26 Sep 2023 </span>New qubit circuit enables quantum operations with higher accuracy</h3>
-                <p>Researchers have developed a novel superconducting qubit architecture that can perform operations between qubits with much higher accuracy than scientists have yet been able to achieve. This architecture, which utilizes a relatively new type of superconducting qubit called fluxonium, is scalable and could be used to someday build a large-scale quantum computer.</p>
+                <h3 class="titre"><span class="point">26 Sep 2023 </span>Le nouveau circuit qubit permet des opérations quantiques avec une précision accrue.</h3>
+                <p>Les chercheurs ont mis au point une nouvelle architecture de qubit supraconducteur qui peut effectuer des opérations entre qubits avec une précision bien plus élevée que ce que les scientifiques ont jusqu'à présent été en mesure d'atteindre. Cette architecture, qui utilise un type relativement nouveau de qubit supraconducteur appelé fluxonium, est scalable et pourrait être utilisée un jour pour construire un ordinateur quantique à grande échelle.</p>
                 <p class="source">Source : Quantum Computers News -- ScienceDaily</p>
-                <p class="rien"><a href="https://www.sciencedaily.com/releases/2023/09/230925153807.htm" class="button_vt" target="_blank"><button>En savoir plus</button></a></p>
+                <p class="rien"><a href="https://www.sciencedaily.com/releases/2023/09/230925153807.htm" class="button_vt" target="_blank" target="_blank"><button>En savoir plus</button></a></p>
               </div>
             </li>
 
@@ -587,10 +599,8 @@
 
       <p class="marginTop textJustify textIndent">Le développement de l'ordinateur quantique représente une avancée extraordinaire dans le domaine de la technologie. Ces
         machines promettent de révolutionner notre capacité à résoudre des problèmes complexes en un temps record, en exploitant les
-        lois de la mécanique quantique. Les ordinateurs quantiques ouvrent la porte à des avancées majeures dans des domaines tels
-        que la cryptographie, la résolution de problèmes d'optimisation,
-        et bien plus encore. Leur potentiel pour transformer notre compréhension du monde et notre capacité à relever des défis
-        fondamentaux est passionnant, et le futur s'annonce prometteur pour cette technologie révolutionnaire.</p>
+        lois de la mécanique quantique. Au cours de ces deux années, la recherche s'est majoritairement concentrée sur la stabilisation de la transmission de 
+        l'information, mais également sur le développements de nouveaux modes de créations de qubits.</p>
 
       <p class="marginTop textJustify textIndent">Cependant, cette nouvelle puissance de calcul apporte aussi son lot de préoccupations en matière de
         cybersécurité. Les ordinateurs quantiques sont capables de casser rapidement des méthodes de cryptographie actuelles, ce qui
