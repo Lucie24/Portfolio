@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/logo.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -38,89 +38,228 @@
 
 <body>
 
-  <main id="main">
+  <!-- ======= Header ======= -->
+  <div class="header header-top">
+    <div class="container">
+
+      <h1><a href="index.php">Lucie DUMAS</a></h1>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="index.php">Accueil</a></li>
+          <li><a class="nav-link" href="index.php#about">Profil</a></li>
+          <li><a class="nav-link" href="index.php#resume">Veille technologique</a></li>
+          <li><a class="nav-link" href="index.php#stages">Stages</a></li>
+          <li><a class="nav-link" href="index.php#services">Documentations</a></li>
+          <li><a class="nav-link" href="index.php#certifications">Certifications</a></li>
+          <!-- <li><a class="nav-link" href="#contact">Contact</a></li> -->
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </div>
+
+  <main id="main ">
 
     <!-- ======= Portfolio Details ======= -->
-    <div id="portfolio-details" class="portfolio-details overFlow">
+    <div id="portfolio-details" class="portfolio-details">
       <div class="container">
 
 
         <div class="row">
-          
-          <a class="returnButton" href="index.php#services">Retour</a>
 
           <?php
             $id = $_GET["id"];
 
             switch ($id) {
               case 1:
-                echo "<p>blblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbb lblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbbl blbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblblbblb</p>";
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Mise en place d'un réseau informatique</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette mission, nous mettrons en place un réseau constitué d'un serveur et d'un routeur Debian 11.</p>";
                 break;
               case 2:
-                echo "i égal " + $id;
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Installation et mise en place de LXC</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette mission, nous mettrons en place un serveur template ainsi qu'un serveur web à l'aide de la solution 
+                de conteneurisation LXC. Notre serveur template sera un modèle de conteneurs que nous utiliserons pour créer nos futures machines.</p>";
                 break;
               case 3:
-                echo "i égal " + $id;
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Installation et mise en place de LAMP</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette mission, nous configurerons notre serveur web avec la solution LAMP 
+                (Linux-Apache-MariaDB-PHPMyAdmin). Nous manipulerons également la création de bases de données via un script SQLite3.</p>";
                 break;
               case 4:
-                echo "i égal " + $id;
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Installation et configuration DNS</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette mission, nous mettrons en place un serveur de noms et nous nous assurerons de sa haute disponibilité à 
+                l'aide du couple de DNS Master/Slave</p>";
                 break;
               case 5:
-                echo "i égal " + $id;
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Solution de sauvegarde Rsync/Cron</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette mission, nous mettrons en place le conteneur Backup, qui stockera les différentes sauvegardes. Nous 
+                utiliserons l'outil de sauvegarde Rsync pour sauvegarder le contenu de nos conteneurs via un script. Nous utiliserons également l'outil Cron pour 
+                planifier le lancement du script.</p>";
                 break;
               case 6:
-                echo "i égal " + $id;
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Mise en place d'un serveur FTP</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette mission, nous mettrons en place un serveur de transfert de fichiers</p>";
                 break;
               case 7:
-                echo "i égal " + $id;
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Mise en place des Virtual Hosts : Apache2</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
                 break;
               case 8:
-                echo "i égal " + $id;
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Chiffrement des communications HTTP et FTP avec SSL/TLS</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
                 break;
               case 9:
-                echo "i égal " + $id;
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Mise en place d'un pare-feu / filtrage des flux</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
                 break;
               case 10:
-                echo "i égal " + $id;
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Mise en place d'un serveur DHCP</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
                 break;
               case 11:
-                echo "i égal " + $id;
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Installation et configuration de Proxmox VE</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
                 break;
               case 12:
-                echo "i égal " + $id;
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Installation de clés GPG et configuration de la commande sudo</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
                 break;
               case 13:
-                echo "i égal " + $id;
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Récupération d'une configuration avec Clonezilla</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
                 break;
               case 14:
-                echo "i égal " + $id;
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Mise en place d'un serveur de sauvegarde</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
                 break;
               case 15:
-                echo "i égal " + $id;
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Configuration d'un serveur de bases de données</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
                 break;
               case 16:
-                echo "i égal " + $id;
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Configuration IP automatique de clients</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
                 break;
               case 17:
-                echo "i égal " + $id;
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>DHCP Failover et Load Balancing</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
                 break;
               case 18:
-                echo "i égal " + $id;
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Mise en place d'un serveur de noms</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
                 break;
               case 19:
-                echo "i égal " + $id;
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Mise en place des applications Web avec Nginx</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
                 break;
               case 20:
-                echo "i égal " + $id;
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Transfert de fichier / Stockage NAS</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
                 break;
               case 21:
-                echo "i égal " + $id;
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Chiffrement des communications avec SSL/TLS</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
                 break;
               case 22:
-                echo "i égal " + $id;
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Mise en place d'un pare-feu OPNsense</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
                 break;
               case 23:
-                echo "i égal " + $id;
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Supervision de l'infrastructure avec Zabbix</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
                 break;               
             }
 

@@ -73,6 +73,15 @@ h6 {
   overflow-y: auto;
 }
 
+.header {
+  transition: ease-in-out 0.3s;
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 997;
+  overflow-y: auto;
+}
+
 #header * {
   transition: ease-in-out 0.3s;
 }
@@ -86,8 +95,24 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
+.header h1 {
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
 #header h1 a,
 #header h1 a:hover {
+  color: #fff;
+  line-height: 1;
+  display: inline-block;
+}
+
+.header h1 a,
+.header h1 a:hover {
   color: #fff;
   line-height: 1;
   display: inline-block;
@@ -138,6 +163,10 @@ h6 {
     font-size: 36px;
   }
 
+  .header h1 {
+    font-size: 36px;
+  }
+
   #header h2 {
     font-size: 20px;
     line-height: 30px;
@@ -152,10 +181,26 @@ h6 {
     flex-direction: column;
     align-items: center;
   }
+
+  .header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* Header Top */
 #header.header-top {
+  height: 80px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+/* Header Top */
+.header-top {
   height: 80px;
   position: fixed;
   left: 0;
@@ -174,7 +219,17 @@ h6 {
   font-size: 36px;
 }
 
+.header-top h1 {
+  margin-right: auto;
+  font-size: 36px;
+}
+
 #header.header-top .container {
+  display: flex;
+  align-items: center;
+}
+
+.header-top .container {
   display: flex;
   align-items: center;
 }
@@ -183,12 +238,24 @@ h6 {
   margin: 0;
 }
 
+.header-top .navbar {
+  margin: 0;
+}
+
 @media (max-width: 768px) {
   #header.header-top {
     height: 60px;
   }
 
+  .header-top {
+    height: 60px;
+  }
+
   #header.header-top h1 {
+    font-size: 26px;
+  }
+
+  .header-top h1 {
     font-size: 26px;
   }
 }
@@ -964,7 +1031,6 @@ section .container {
 .portfolio-details {
   padding-top: 40px;
   background: rgba(0, 0, 0, 0.8);
-  position: fixed;
   left: 0;
   right: 0;
   top: 0;
@@ -1457,6 +1523,10 @@ section .container {
 # Autres
 --------------------------------------------------------------*/
 
+.tinyMarginTop {
+  margin-top: 1rem;
+}
+
 .marginTop {
   margin-top: 2rem;
 }
@@ -1471,6 +1541,10 @@ section .container {
 
 .textJustify {
   text-align: justify;
+}
+
+.textCenter {
+  text-align: center;
 }
 
 .textIndent {
