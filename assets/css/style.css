@@ -158,6 +158,16 @@ h6 {
   background: #18d26e;
 }
 
+@media (max-width: 1200px) {
+  #header h1 {
+    font-size: 26px !important;
+  }
+
+  .header h1 {
+    font-size: 26px !important;
+  }
+}
+
 @media (max-width: 992px) {
   #header h1 {
     font-size: 36px;
@@ -407,7 +417,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Sections General
+#s General
 --------------------------------------------------------------*/
 section {
   overflow: hidden;
@@ -429,7 +439,10 @@ section.section-show {
 
 section .container {
   background: rgba(0, 0, 0, 0.9);
-  padding: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 @media (max-width: 768px) {
@@ -446,7 +459,6 @@ section .container {
   font-size: 14px;
   font-weight: 500;
   padding: 0;
-  line-height: 1px;
   margin: 0 0 20px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -1009,7 +1021,17 @@ section .container {
 }
 
 .img-fluid {
-  height : 12rem;
+  max-width: 60% !important;
+  height: auto;
+  margin: auto;
+}
+
+@media (max-width: 992px) {
+  .img-fluid {
+    max-width: 30% !important;
+    height: auto;
+    margin: auto;
+  }
 }
 
 .returnButton {
@@ -1029,7 +1051,7 @@ section .container {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-  padding-top: 40px;
+  padding-top: 100px;
   background: rgba(0, 0, 0, 0.8);
   left: 0;
   right: 0;
@@ -1327,6 +1349,13 @@ section .container {
   flex-direction: row;
 }
 
+@media (max-width: 992px) {
+  .vlans_content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .vlans_image {
   flex-basis: 60%;
   width: 70%;
@@ -1339,6 +1368,21 @@ section .container {
   flex-direction: column;
   justify-content: center;
 }
+
+.outils {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.outils_text {
+  justify-content: center;
+}
+
+.outils_image {
+  margin: auto;
+}
+
 
 /*--------------------------------------------------------------
 # Vertical Timeline
@@ -1399,7 +1443,7 @@ section .container {
 
 .timeline h3{
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  padding: 1rem 0rem 1rem 0.7rem;
+  padding: 1rem;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   color: #fff;
@@ -1409,7 +1453,7 @@ section .container {
 
 .timeline p {
   font-size: small;
-  padding: 1rem 0 1rem 1rem;
+  padding: 1rem;
   color: #000;
 }
 
@@ -1539,6 +1583,10 @@ section .container {
   margin-bottom: 2rem;
 }
 
+.marginAuto {
+  margin: auto !important;
+}
+
 .textJustify {
   text-align: justify;
 }
@@ -1549,4 +1597,12 @@ section .container {
 
 .textIndent {
   text-indent: 2rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
 }

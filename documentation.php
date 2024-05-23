@@ -27,6 +27,18 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
   <!-- =======================================================
   * Template Name: Personal
   * Updated: Mar 10 2023 with Bootstrap v5.2.3
@@ -38,7 +50,7 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
+  <!--======= Header =======-->
   <div class="header header-top">
     <div class="container">
 
@@ -54,7 +66,7 @@
           <li><a class="nav-link" href="index.php#certifications">Certifications</a></li>
           <!-- <li><a class="nav-link" href="#contact">Contact</a></li> -->
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
+        <i id="btn-phone" class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
     </div>
   </div>
@@ -105,7 +117,7 @@
                 </div>
 
                 <p class='marginBottom textCenter'>Dans cette mission, nous mettrons en place un serveur de noms et nous nous assurerons de sa haute disponibilité à 
-                l'aide du couple de DNS Master/Slave</p>";
+                l'aide du couple de DNS Master/Slave.</p>";
                 break;
               case 5:
                 echo 
@@ -123,7 +135,8 @@
                   <p class='textCenter'>Mise en place d'un serveur FTP</p>
                 </div>
 
-                <p class='marginBottom textCenter'>Dans cette mission, nous mettrons en place un serveur de transfert de fichiers</p>";
+                <p class='marginBottom textCenter'>Dans cette mission, nous mettrons en place un serveur de transfert de fichiers et configurerons les utilisateurs
+                anonymes ainsi que les Virtual Hosts.</p>";
                 break;
               case 7:
                 echo 
@@ -131,7 +144,8 @@
                   <p class='textCenter'>Mise en place des Virtual Hosts : Apache2</p>
                 </div>
 
-                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
+                <p class='marginBottom textCenter'>Dans cette mission, nous mettrons en place des Virtual Hosts afin de pouvoir héberger plusieurs sites internet
+                sur le même serveur web, dont un avec un accès limité. Nous metttrons également en place un DokuWiki ainsi que des pages d'erreur personnalisées.</p>";
                 break;
               case 8:
                 echo 
@@ -139,7 +153,8 @@
                   <p class='textCenter'>Chiffrement des communications HTTP et FTP avec SSL/TLS</p>
                 </div>
 
-                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
+                <p class='marginBottom textCenter'>Dans cette mission, nous sécuriserons notre service FTP et nos sites internet en chiffrant nos communications 
+                à l'aide du chiffrement SSL/TLS. Nous mettrons donc en place les protocoles FTPS et HTTPS.</p>";
                 break;
               case 9:
                 echo 
@@ -147,7 +162,8 @@
                   <p class='textCenter'>Mise en place d'un pare-feu / filtrage des flux</p>
                 </div>
 
-                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
+                <p class='marginBottom textCenter'>Dans cette mission, nous mettrons en place un pare-feu afin de filtrer les flux
+                entre chaque service. Pour ce faire, un script IPtables devra être créé.</p>";
                 break;
               case 10:
                 echo 
@@ -272,18 +288,6 @@
     </div><!-- End Portfolio Details -->
 
   </main><!-- End #main -->
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
 
 </body>
 

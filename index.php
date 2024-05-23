@@ -74,8 +74,8 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/zenou.png" class="img-fluid" alt="">
+        <div class="col-lg-4 flex" data-aos="fade-right">
+          <img src="assets/img/photo.png" class="img-fluid" alt="">
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
           <h3>Etudiante BTS SIO</h3>
@@ -116,6 +116,10 @@
         <p class="textIndent textJustify">Reconnu par l’Etat, le BTS SIO a remplacé depuis 2011 le BTS IG (Informatique et gestion). Cette nouvelle formule entend s’adapter aux besoins constatés sur le marché du travail de profils qualifiés en TIC (Technologies d’Information Communication). Pour remplir cet objectif particulier, elle s’est déclinée en deux spécialités distinctes : BTS SIO SISR et BTS SIO SLAM. Celles-ci, comportent des modules techniques en liaison avec l’informatique, et d’autres de culture générale et de management. Elles proposent également des périodes de stages en entreprise d’une durée de 10 à 11 semaines, afin d’initier les étudiants aux réalités du domaine professionnel et doper leur employabilité.</p>
       </div>
 
+    </div>
+
+    <div class="container">
+
       <div class="section-title">
         <h2>Présentation de la spécialité SISR</h2>
       </div>
@@ -130,47 +134,6 @@
       </div>
 
     </div>
-
-    <!-- ======= Counts =======
-    <div class="counts container">
-
-      <div class="row">
-
-        <div class="col-lg-3 col-md-6">
-          <div class="count-box">
-            <i class="bi bi-emoji-smile"></i>
-            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Happy Clients</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-          <div class="count-box">
-            <i class="bi bi-journal-richtext"></i>
-            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Projects</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="bi bi-headset"></i>
-            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hours Of Support</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="bi bi-award"></i>
-            <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Awards</p>
-          </div>
-        </div>
-
-      </div>
-
-    </div> End Counts -->
 
     <!-- ======= Resume ========-->
     <div class="container">
@@ -538,8 +501,30 @@
             <li>
               <i class="fa-brands fa-html5"></i>
               <div class="box">
-                <h3 class="titre"><span class="point">16 Jan 2024 </span>Générer des qubits stables à température ambiante</h3>
-                <p>Les bits quantiques, ou qubits, peuvent révolutionner les systèmes informatiques et de détection. Cependant, des températures cryogéniques sont nécessaires pour assurer la stabilité des qubits. Dans une étude révolutionnaire, des chercheurs ont observé pour la première fois des qubits moléculaires stables de quatre spins électroniques à température ambiante en supprimant la mobilité d'une molécule de colorant à l'intérieur d'un cadre métallo-organique. Leur conception moléculaire innovante ouvre la voie à des matériaux qui pourraient stimuler le développement de technologies quantiques capables de fonctionner dans des conditions réelles.</p>
+                <h3 class="titre textJustify"><span class="point">7 Mai 2024 </span>Une nouvelle puce en silicium ultra-pur ouvre la voie à des ordinateurs quantiques puissants.</h3>
+                <p class="textJustify">Les chercheurs ont inventé une technique révolutionnaire pour fabriquer du silicium hautement purifié, rapprochant ainsi de manière significative la réalisation d'ordinateurs quantiques puissants.</p>
+                <p class="source">Source : Quantum Computers News -- ScienceDaily</p>
+                <p class="rien"><a href="https://www.sciencedaily.com/releases/2024/05/240507150004.htm" class="button_vt" target="_blank"><button>En savoir plus</button></a></p>
+              </div>
+            </li>
+
+            <!-- First Item -->
+            <li>
+              <i class="fa-brands fa-html5"></i>
+              <div class="box">
+                <h3 class="titre textJustify"><span class="point">2 Mai 2024 </span>Découverte majeure dans la recherche sur la téléportation -- Le bruit peut améliorer la qualité de la téléportation quantique.</h3>
+                <p class="textJustify">Les chercheurs ont réussi à réaliser une téléportation quantique presque parfaite malgré la présence de bruit qui perturbe habituellement le transfert de l'état quantique.</p>
+                <p class="source">Source : Quantum Computers News -- ScienceDaily</p>
+                <p class="rien"><a href="https://www.sciencedaily.com/releases/2024/05/240502113805.htm" class="button_vt" target="_blank"><button>En savoir plus</button></a></p>
+              </div>
+            </li>
+
+            <!-- First Item -->
+            <li>
+              <i class="fa-brands fa-html5"></i>
+              <div class="box">
+                <h3 class="titre textJustify"><span class="point">16 Jan 2024 </span>Générer des qubits stables à température ambiante</h3>
+                <p class="textJustify">Les bits quantiques, ou qubits, peuvent révolutionner les systèmes informatiques et de détection. Cependant, des températures cryogéniques sont nécessaires pour assurer la stabilité des qubits. Dans une étude révolutionnaire, des chercheurs ont observé pour la première fois des qubits moléculaires stables de quatre spins électroniques à température ambiante en supprimant la mobilité d'une molécule de colorant à l'intérieur d'un cadre métallo-organique. Leur conception moléculaire innovante ouvre la voie à des matériaux qui pourraient stimuler le développement de technologies quantiques capables de fonctionner dans des conditions réelles.</p>
                 <p class="source">Source : Quantum Computers News -- ScienceDaily</p>
                 <p class="rien"><a href="https://www.sciencedaily.com/releases/2024/01/240111113125.htm" class="button_vt" target="_blank"><button>En savoir plus</button></a></p>
               </div>
@@ -549,8 +534,8 @@
             <li>
               <i class="fa-brands fa-html5"></i>
               <div class="box">
-                <h3 class="titre"><span class="point">27 Oct 2023 </span>Importante étape franchie dans la nouvelle architecture de l'informatique quantique.</h3>
-                <p>Les chercheurs font état d'une avancée significative dans le domaine de l'informatique quantique. Ils ont prolongé le temps de cohérence de leur qubit à un seul électron à une impressionnante durée de 0,1 milliseconde, soit une amélioration presque mille fois supérieure.</p>
+                <h3 class="titre textJustify"><span class="point">27 Oct 2023 </span>Importante étape franchie dans la nouvelle architecture de l'informatique quantique.</h3>
+                <p class="textJustify">Les chercheurs font état d'une avancée significative dans le domaine de l'informatique quantique. Ils ont prolongé le temps de cohérence de leur qubit à un seul électron à une impressionnante durée de 0,1 milliseconde, soit une amélioration presque mille fois supérieure.</p>
                 <p class="source">Source : Quantum Computers News -- ScienceDaily</p>
                 <p class="rien"><a href="https://www.sciencedaily.com/releases/2023/10/231026161027.htm" class="button_vt" target="_blank"><button>En savoir plus</button></a></p>
               </div>
@@ -560,8 +545,8 @@
             <li>
               <i class="fa-brands fa-html5"></i>
               <div class="box">
-                <h3 class="titre"><span class="point">26 Sep 2023 </span>Le nouveau circuit qubit permet des opérations quantiques avec une précision accrue.</h3>
-                <p>Les chercheurs ont mis au point une nouvelle architecture de qubit supraconducteur qui peut effectuer des opérations entre qubits avec une précision bien plus élevée que ce que les scientifiques ont jusqu'à présent été en mesure d'atteindre. Cette architecture, qui utilise un type relativement nouveau de qubit supraconducteur appelé fluxonium, est scalable et pourrait être utilisée un jour pour construire un ordinateur quantique à grande échelle.</p>
+                <h3 class="titre textJustify"><span class="point">26 Sep 2023 </span>Le nouveau circuit qubit permet des opérations quantiques avec une précision accrue.</h3>
+                <p class="textJustify">Les chercheurs ont mis au point une nouvelle architecture de qubit supraconducteur qui peut effectuer des opérations entre qubits avec une précision bien plus élevée que ce que les scientifiques ont jusqu'à présent été en mesure d'atteindre. Cette architecture, qui utilise un type relativement nouveau de qubit supraconducteur appelé fluxonium, est scalable et pourrait être utilisée un jour pour construire un ordinateur quantique à grande échelle.</p>
                 <p class="source">Source : Quantum Computers News -- ScienceDaily</p>
                 <p class="rien"><a href="https://www.sciencedaily.com/releases/2023/09/230925153807.htm" class="button_vt" target="_blank" target="_blank"><button>En savoir plus</button></a></p>
               </div>
@@ -571,8 +556,8 @@
             <li>
               <i class="fa-brands fa-html5"></i>
               <div class="box">
-                <h3 class="titre"><span class="point">17 Fev 2023 </span>Une nouvelle avancée majeure vers des ordinateurs quantiques fonctionnels</h3>
-                <p>Interconnecter plusieurs micropuces quantiques… La prouesse peut sembler quelque peu obscure pour les non-initiés, mais elle représente une avancée majeure qui pourrait faciliter la conception d’ordinateurs quantiques fonctionnels.</p>
+                <h3 class="titre textJustify"><span class="point">17 Fev 2023 </span>Une nouvelle avancée majeure vers des ordinateurs quantiques fonctionnels</h3>
+                <p class="textJustify">Interconnecter plusieurs micropuces quantiques… La prouesse peut sembler quelque peu obscure pour les non-initiés, mais elle représente une avancée majeure qui pourrait faciliter la conception d’ordinateurs quantiques fonctionnels.</p>
                 <p class="source">Source : Trust My Science</p>
                 <p class="rien"><a href="https://trustmyscience.com/nouvelle-avancee-majeure-ordinateur-quantique-fonctionnel/" class="button_vt" target="_blank"><button>En savoir plus</button></a></p>
               </div>
@@ -582,8 +567,8 @@
             <li>
               <i class="fa-brands fa-html5"></i>
               <div class="box">
-                <h3 class="titre"><span class="point">7 Sep 2021 </span>L’ordinateur quantique de Google valide l'existence d'un nouvel état de la matière</h3>
-                <p>Des chercheurs de Google, Princeton et Stanford expliquent avoir simulé, sur le calculateur quantique de l'entreprise, un cristal temporel.</p>
+                <h3 class="titre textJustify"><span class="point">7 Sep 2021 </span>L’ordinateur quantique de Google valide l'existence d'un nouvel état de la matière</h3>
+                <p class="textJustify">Des chercheurs de Google, Princeton et Stanford expliquent avoir simulé, sur le calculateur quantique de l'entreprise, un cristal temporel.</p>
                 <p class="source">Source : L'Usine Nouvelle</p>
                 <p class="rien"><a href="https://www.usinenouvelle.com/article/l-instant-tech-l-ordinateur-quantique-de-google-valide-l-existence-d-un-nouvel-etat-de-la-matiere.N1137809" class="button_vt" target="_blank"><button>En savoir plus</button></a></p>
               </div>
@@ -669,19 +654,71 @@
       </div>
 
       <p class="marginTop textJustify textIndent">
-        Pour réaliser ce projet, nous avons eu 5 semaines. Chaque début de semaine, une
-        présentation orale de quelques minutes était organisée pour que chaque groupe explique le
+        Ce projet s'est déroulé sur l'ensemble des 5 semaines de mon stage. Chaque début de semaine, une
+        présentation orale de quelques minutes était organisée pour que chaque binôme de stagiaires explique le
         travail réalisé la semaine passée, des détails sur celui à réaliser au cours de la semaine ainsi
         que le résultat prévu, mais également les différentes difficultés rencontrées afin de pouvoir
         recevoir l’aide d’une personne apte à résoudre le problème.
       </p>
 
       <div class="section-title marginTop">
+        <h2>Outils utilisés</h2>
+      </div>
+
+      <div class="outils">
+        <p class="outils_text marginTop textJustify bold">
+          CISCO PACKET TRACER
+        </p>
+
+        <p class="outils_text textCenter">
+          Cisco Packet Tracer est un outil de simulation de réseau développé par Cisco Systems. Il est principalement 
+          utilisé à des fins éducatives et permet aux étudiants, aux enseignants et aux professionnels de l'informatique de 
+          créer et de simuler des réseaux informatiques sans avoir besoin de matériel physique.
+        </p>
+
+        <div class="outils_image">
+            <img src="assets/img/packet_tracer.png" class="marginTop">
+        </div>
+      </div>
+      
+
+      <div class="outils">
+        <p class="outils_text marginTop textJustify bold">
+          MOBAXTERM
+        </p>
+
+        <p class="outils_text textCenter">
+        MobaXterm est un logiciel tout-en-un destiné aux administrateurs système, développeurs et autres professionnels de 
+        l'informatique qui ont besoin d'accéder à des serveurs distants et de gérer des systèmes à distance.
+        </p>
+
+        <div class="outils_image">
+            <img src="assets/img/mobaxterm.jpg" class="marginTop">
+        </div>
+      </div>
+
+      <div class="outils">
+        <p class="outils_text marginTop textJustify bold">
+          CISCO MERAKI
+        </p>
+
+        <p class="outils_text textCenter">
+        Cisco Meraki est une solution de gestion de réseau basée sur le cloud, développée par Cisco. Elle permet aux 
+        entreprises de gérer facilement et efficacement leurs réseaux, y compris les points d'accès sans fil, les commutateurs, 
+        les routeurs, et les dispositifs de sécurité.
+        </p>
+
+        <div class="outils_image">
+            <img src="assets/img/meraki.png" class="marginTop">
+        </div>
+      </div>
+
+      <div class="section-title marginTop">
         <h2>Description des VLANs</h2>
       </div>
 
       <p class="marginTop textJustify textIndent">
-            Afin de réaliser la refonte partielle des VLANs, plusieurs feuilles Excel ont été fournies
+            Afin de réaliser la refonte partielle des VLANs, plusieurs feuilles Excel ont été fournies dont une feuille
             contenant une liste de tous les serveurs utilisés par l’entreprise, ainsi que la liste exhaustive
             des différents VLANs.
       </p>
@@ -705,6 +742,132 @@
           <img src="assets/img/tableau_vlans.png" class="vlans_image marginTop">
         </div>
       </div>
+
+      <div class="section-title marginTop">
+        <h2>Développement du code VBA</h2>
+      </div>
+
+      <div class="vlans_content">
+        <p class="marginTop textJustify textIndent vlans_text">
+              Pour subvenir au besoin de l'entreprise concernant la création de VLANs optimisés, j'ai créé un code VBA permettant 
+              d'obtenir le masque de sous réseau ainsi que le nombre d'hôtes disponibles à partir du nombre d'hôtes utilisés, afin 
+              de réduire les plages d'adresses de certains VLANs. Voici un extrait du code :
+        </p>        
+        
+        <div class="livres">
+          <img src="assets/img/vba.png" class="vlans_image marginTop marginAuto">
+        </div>
+      </div>
+
+      <div class="section-title marginTop">
+        <h2>Réalisation de la maquette</h2>
+      </div>
+
+      <p class="marginTop textJustify textIndent">
+                Avant d’effectuer les modifications sur les switches de la polyclinique, j’ai créé une
+            maquette sur le logiciel Cisco Packet Tracer permettant de recréer en version simplifiée de la
+            communication inter-VLAN de l’entreprise. Pour réaliser la maquette, je me
+            suis aidée de la formation OpenClassrooms : « Simulez le schéma de votre réseau avec
+            Cisco » afin de comprendre la communication inter-VLAN. J’ai également dû apprendre à
+            configurer un switch en tant que routeur, en créant des interfaces virtuelles pour chaque sous
+            réseau. Puis, j’ai réalisé les différentes règles de pare-feu afin de pouvoir limiter la
+            communication entre VLANs. Voici un apperçu de ma maquette :
+      </p>
+
+      <div class="livres">
+          <img src="assets/img/vlan.png" class="vlans_image marginTop">
+      </div>
+
+      <div class="section-title marginTop">
+        <h2>Intégration des nouveaux VLANs sur le cœur Cisco</h2>
+      </div>
+
+      <p class="marginTop textJustify textIndent">
+        Pour intégrer les nouveaux VLANs au Cœur Cisco, j’ai pu utiliser le logiciel MobaXterm,
+      qui est un émulateur de terminal Linux pour Windows permettant de se connecter à distance
+      à un serveur à l’aide du protocole SSH. J’ai créé les VLANs via l’interface en ligne de
+      commande. Après avoir entré l’adresse de réseau des VLANs ainsi que leurs masques de
+      sous réseau, j’entre les nouvelles plages d’adresses IP à distribuer dans le DHCP.
+      </p>
+      
+      <p class="textJustify textIndent">
+      Après avoir vérifié que l’attribution des adresses était fonctionnelle, j’ai créé les règles
+      de pare-feu nécessaires à l’isolation des nouveaux VLANs. Une fois les règles mises en place,
+      je vérifie une dernière fois, en plaçant l’ordinateur attribué par l’entreprise sur les VLANs créés,
+      que j’ai la possibilité de contacter ou non les machines souhaitées.
+      </p>
+
+      <div class="section-title marginTop">
+        <h2>Difficultés rencontrées lors de la mission et solutions apportées</h2>
+      </div>
+
+      <p class="marginTop textJustify textIndent">
+            Dans le cadre de ma mission principale, j’ai pu rencontrer des difficultés au cours de
+      mes diverses manipulations. Pour pallier ces difficultés, j’ai pu faire appel à l’aide des
+      administrateur réseaux ainsi qu'à de diverses personnes compétentes ne faisant pas parti du
+      service informatique, comme dans le cadre de la création d’un tableau croisé dynamique. Pour
+      les problèmes liés à la création de la maquette, je me suis aidée de plusieurs formations
+      OpenClassrooms dont une formation que j’ai entièrement réalisée pour comprendre le routage
+      au niveau des switches, la création des interfaces virtuelles ainsi que tous les éléments
+      nécessaires à la communication inter-VLAN.
+      </p>
+      
+      <p class="textJustify textIndent">
+            Au niveau de la distribution des tâches au sein de mon groupe, une inégalité dans la
+      répartition du travail s’est créée dès les premiers jours de stage. Cela a entrainé un retard au
+      niveau du projet car j’ai dû faire l’intégralité du travail seule. Cette charge de travail
+      supplémentaire m’a, de ce fait, énormément retardée pour mes diverses veilles
+      technologiques en lien avec les logiciels utilisés et les nouveaux concepts abordés, ainsi que
+      la production de documentations personnelles sur les différentes étapes et manipulations
+      effectuées tout au long de ma mission principale. 
+      </p>
+
+      <div class="section-title marginTop">
+        <h2>Bilan</h2>
+      </div>
+
+      <p class="marginTop textJustify textIndent">
+          Ce stage m’a permis de mieux comprendre les différentes tâches effectuées par les
+      administrateurs réseaux au sein d’un groupe regroupant plusieurs sites médicaux. Cela a été
+      l’occasion pour moi d’apprendre de nouvelles technologies telles que le logiciel de supervision
+      GLPI, mais aussi la solution Cisco Meraki, permettant de gérer un réseau via un cloud, ou
+      encore l’émulateur de terminal Linux MobaXterm. J’ai également pu profiter de ce stage pour
+      renforcer mes acquis sur des logiciels que j’ai déjà utilisés durant ma première année de
+      formation comme le logiciel WireShark, permettant de faire des captures de trames, ou encore
+      le logiciel Cisco Packet Tracer, permettant de recréer virtuellement des réseaux à petite ou
+      grande échelle.
+      </p>
+
+      <p class="textJustify textIndent">
+          Concernant mes différents travaux sur les VLANs existants, je n’ai malheureusement
+      pas pu les mettre en production depuis le Cloud de Meraki étant donné que le fonctionnement
+      en continu de l’infrastructure est critique pour l’activité de l’entreprise et qu’un tel changement
+      doit être réfléchi et prévu à l’avance.
+      </p>
+
+      <p class="textJustify textIndent">
+          J’ai également été amenée à participer à l’installation de plusieurs ordinateurs,
+      accompagnée d’un administrateur réseau, principalement sur le site du SMR de La Lande.
+      Cette expérience m’a permis de développer mes connaissances sur le hardware, et m’a permis
+      d’appliquer les différents acquis sur la mise en place du matériel informatique (écrans, tours,
+      claviers, souris, câbles).
+      </p>
+
+      <p class="textJustify textIndent">
+          Cependant, les membres du groupe de développeurs et moi-même avons pu nous
+      aider mutuellement sur nos différentes missions lorsqu’un de nous rencontrait des difficultés
+      avec une tâche particulière qui ne relevait pas de son domaine de prédilection. J’ai pu
+      également beaucoup apprendre auprès de tous les membres du service informatique, que ce
+      soit à un niveau purement technique mais également à un niveau plus général, comme la
+      création d’une lettre de motivation originale ou encore quelques conseils sur le management
+      d’un groupe ou d’un service.
+      </p>
+
+      <p class="textJustify textIndent">
+          En ce qui concerne les relations entre les informaticiens et le reste du monde, j’ai pu
+      constater que peu de salariés de l’entreprise connaissaient réellement le rôle des employés
+      du service informatique, qui est vu comme un service de support technique.
+      </p>
 
       <div class="section-title marginTop">
         <p>L'institution Beaupeyrat (87)</p>
@@ -772,7 +935,7 @@
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-file"></i></div>
-            <h4><?php echo "<a href='documentation.php?id=7'>"; ?>Mise en place des Virtual Hosts : Apache2</a></h4>
+            <h4><?php echo "<a href='documentation.php?id=7'>"; ?>Mise en place des Virtual Hosts avec le service Apache2</a></h4>
           </div>
         </div>
 
@@ -949,81 +1112,6 @@
 
     </div>
   </section><!-- End Portfolio Section -->
-
-  <!-- ======= Contact Section ======= -->
-  <section id="contact" class="contact">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Contact</h2>
-        <p>Contact Me</p>
-      </div>
-
-      <div class="row mt-2">
-
-        <div class="col-md-6 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-map"></i>
-            <h3>My Address</h3>
-            <p>A108 Adam Street, New York, NY 535022</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-share-alt"></i>
-            <h3>Social Profiles</h3>
-            <div class="social-links">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-envelope"></i>
-            <h3>Email Me</h3>
-            <p>contact@example.com</p>
-          </div>
-        </div>
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-phone-call"></i>
-            <h3>Call Me</h3>
-            <p>+1 5589 55488 55</p>
-          </div>
-        </div>
-      </div>
-
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
-        <div class="row">
-          <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-          </div>
-          <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-          </div>
-        </div>
-        <div class="form-group mt-3">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-        </div>
-        <div class="form-group mt-3">
-          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-        </div>
-        <div class="my-3">
-          <div class="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message">Your message has been sent. Thank you!</div>
-        </div>
-        <div class="text-center"><button type="submit">Send Message</button></div>
-      </form>
-
-    </div>
-  </section><!-- End Contact Section -->
 
   <div class="credits">
     <!-- All the links in the footer should remain intact. -->
