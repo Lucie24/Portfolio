@@ -523,6 +523,17 @@
             <li>
               <i class="fa-brands fa-html5"></i>
               <div class="box">
+                <h3 class="titre textJustify"><span class="point">2 Avr 2024 </span>100 kilomètres de transfert chiffré quantique</h3>
+                <p class="textJustify">Les chercheurs ont fait un grand pas vers la sécurisation des informations contre le piratage. Ils ont réussi à utiliser le chiffrement quantique pour transférer des informations en toute sécurité sur une distance de 100 kilomètres via un câble à fibre optique.</p>
+                <p class="source">Source : Quantum Computers News -- ScienceDaily</p>
+                <p class="rien"><a href="https://www.sciencedaily.com/releases/2024/04/240402140111.htm" class="button_vt" target="_blank"><button>En savoir plus</button></a></p>
+              </div>
+            </li>
+
+            <!-- First Item -->
+            <li>
+              <i class="fa-brands fa-html5"></i>
+              <div class="box">
                 <h3 class="titre textJustify"><span class="point">16 Jan 2024 </span>Générer des qubits stables à température ambiante</h3>
                 <p class="textJustify">Les bits quantiques, ou qubits, peuvent révolutionner les systèmes informatiques et de détection. Cependant, des températures cryogéniques sont nécessaires pour assurer la stabilité des qubits. Dans une étude révolutionnaire, des chercheurs ont observé pour la première fois des qubits moléculaires stables de quatre spins électroniques à température ambiante en supprimant la mobilité d'une molécule de colorant à l'intérieur d'un cadre métallo-organique. Leur conception moléculaire innovante ouvre la voie à des matériaux qui pourraient stimuler le développement de technologies quantiques capables de fonctionner dans des conditions réelles.</p>
                 <p class="source">Source : Quantum Computers News -- ScienceDaily</p>
@@ -874,8 +885,95 @@
       </div>
 
       <div class="section-title marginTop">
+        <h2>L'entreprise</h2>
+      </div>
+
+      <p class="marginTop textJustify textIndent">
+          L'institution Beaupeyrat est un établissement scolaire privé regroupant tout niveaux de la 
+          maternelle à la 
+      </p>
+
+      <div class="section-title marginTop">
         <h2>Contexte</h2>
       </div>
+
+      <p class="marginTop textJustify textIndent">
+          Le campus de l'institution Beaupeyrat souhaite faciliter le déploiement de machines 
+          virtuelles d'examens des élèves du BTS SIO option SLAM. Pour ce faire, une machine 
+          virtuelle template devra être créée à l'aide du système d'exploitation Proxmox VE. 
+          Une réflexion sur l'optimisation du déploiement des machines sera également à apporter
+          en proposant plusieurs solutions adéquates.
+      </p>
+
+      <div class="section-title marginTop">
+        <h2>Organisation du projet</h2>
+      </div>
+
+      <p class="marginTop textJustify textIndent">
+        Ce projet s'est déroulé sur l'ensemble des 7 semaines de mon stage, réalisé exclusivement
+        en distanciel. En autonomie totale, j'ai pu avancer à mon rythme et me former sur 
+        l'utilisation de l'outil Terraform et son implémentation dans une structure Proxmox VE.
+      </p>
+
+      <div class="section-title marginTop">
+        <h2>Outils utilisés</h2>
+      </div>
+
+      <div class="outils">
+        <p class="outils_text marginTop textJustify bold">
+          Proxmox VE
+        </p>
+
+        <p class="outils_text textCenter">
+        Proxmox Virtual Environment (Proxmox VE) est une plateforme open source de 
+        virtualisation qui combine la gestion de machines virtuelles (VM) et de conteneurs 
+        dans une seule interface.
+        </p>
+
+        <div class="outils_image">
+            <img src="assets/img/proxmox.png" class="marginTop">
+        </div>
+      </div>
+
+      <div class="outils">
+        <p class="outils_text marginTop textJustify bold">
+          Terraform
+        </p>
+
+        <p class="outils_text textCenter">
+        Terraform est un outil open source d'infrastructure as code (IaC) développé par 
+        HashiCorp. Il permet aux utilisateurs de définir et de provisionner l'infrastructure 
+        en utilisant un langage de configuration déclaratif.
+        </p>
+
+        <div class="outils_image">
+            <img src="assets/img/terraform.png" class="marginTop">
+        </div>
+      </div>
+
+      <div class="section-title marginTop">
+        <h2>Création du template</h2>
+      </div>
+
+      <p class="marginTop textJustify textIndent">
+        blblblbl
+      </p>
+
+      <div class="section-title marginTop">
+        <h2>Déploiement de l'infrastructure</h2>
+      </div>
+
+      <p class="marginTop textJustify textIndent">
+        blblblbl
+      </p>
+
+      <div class="section-title marginTop">
+        <h2>Bilan</h2>
+      </div>
+
+      <p class="marginTop textJustify textIndent">
+        blblblbl
+      </p>
 
     </div>
   </section><!-- End Resume Section -->

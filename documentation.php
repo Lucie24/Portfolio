@@ -171,7 +171,8 @@
                   <p class='textCenter'>Mise en place d'un serveur DHCP</p>
                 </div>
 
-                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
+                <p class='marginBottom textCenter'>Dans cette mission, nous mettrons en place un serveur DHCP afin de pouvoir allouer
+                automatiquement ses paramètres IP et DNS.</p>";
                 break;
               case 11:
                 echo 
@@ -179,7 +180,9 @@
                   <p class='textCenter'>Installation et configuration de Proxmox VE</p>
                 </div>
 
-                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
+                <p class='marginBottom textCenter'>Dans cette mission, nous installerons sur notre routeur le système d'exploitation Debian 12.
+                  Nous installerons ensuite sur notre serveur le système d'exploitation Proxmox VE permettant de mettre en place 
+                  un serveur de virtualisation. Nous créerons également un conteneur template et une machine virtuelle template.</p>";
                 break;
               case 12:
                 echo 
@@ -187,7 +190,8 @@
                   <p class='textCenter'>Installation de clés GPG et configuration de la commande sudo</p>
                 </div>
 
-                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
+                <p class='marginBottom textCenter'>Dans cette mission, nous mettrons en place des clés GPG, puis nous configurerons la commande 
+                sudo.</p>";
                 break;
               case 13:
                 echo 
@@ -195,7 +199,8 @@
                   <p class='textCenter'>Récupération d'une configuration avec Clonezilla</p>
                 </div>
 
-                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
+                <p class='marginBottom textCenter'>Dans cette mission, nous créerons une sauvegarde du disque dur de notre serveur à l'aide de l'outil
+                Clonezilla. Nous simulerons par la suite un incident sur ce même disque et restaureront la sauvegarde effectuée précédemment.</p>";
                 break;
               case 14:
                 echo 
@@ -203,7 +208,8 @@
                   <p class='textCenter'>Mise en place d'un serveur de sauvegarde</p>
                 </div>
 
-                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
+                <p class='marginBottom textCenter'>Dans cette mission, nous mettrons en place un serveur de sauvegarde Backuppc. Nous sauvegarderons ensuite
+                toutes les machines virtuelles et simulerons un incident afin de tester la restauration des sauvegardes.</p>";
                 break;
               case 15:
                 echo 
