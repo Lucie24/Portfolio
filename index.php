@@ -631,6 +631,10 @@
         le centre de soins en psycho-gériatrie Le Verger des Balans.
       </p>
 
+      <div class="livres">
+        <img src="assets/img/francheville.jpg" class="organigramme">
+      </div>
+
       <p class="marginTop textJustify textIndent">
         Le service informatique de l’entreprise est composé de 3 salariés étant
         donné que l’entièreté du développement web de l’entreprise ainsi qu’une partie de la sécurité
@@ -890,8 +894,14 @@
 
       <p class="marginTop textJustify textIndent">
           L'institution Beaupeyrat est un établissement scolaire privé regroupant tout niveaux de la 
-          maternelle à la 
+          maternelle à l'école supérieure. Beaupeyrat est aujourd'hui le plus grand établissement privé 
+          en Limousin et le seul sur la région (public et privé confondus) à regrouper tous les niveaux 
+          sur un même site.
       </p>
+
+      <div class="livres">
+          <img src="assets/img/beaupeyrat.jpg" class="organigramme marginTop">
+      </div>
 
       <div class="section-title marginTop">
         <h2>Contexte</h2>
@@ -956,7 +966,15 @@
       </div>
 
       <p class="marginTop textJustify textIndent">
-        blblblbl
+        Dans un premier temps, j'ai dû créer une machine template qui servira de base à la 
+        création de plusieurs machines virtuelles. Pour ce faire, un accès Proxmox VE m'a été
+        donné. J'ai donc créé une machine virtuelle en me basant sur une configuration Cloud-init.
+        Cet outil nous permet d'automatiser l'initialisation d'une instance cloud au démarrage.
+      </p>
+
+      <p class="marginTop textJustify textIndent">
+        Une fois la machine template installée, j'ai dû installer les outils Git et Docker afin de
+        répondre aux exigences de mon maître de stage.
       </p>
 
       <div class="section-title marginTop">
@@ -964,7 +982,11 @@
       </div>
 
       <p class="marginTop textJustify textIndent">
-        blblblbl
+        En seconde partie de mission, il m'a été demandé de réfléchir à un moyen d'optimiser le 
+        déploiement des machines virtuelles. J'ai donc proposé l'outil Terraform, qui permet de 
+        définir une infrastructure uniquement grâce à du code. Le but est de faire un script 
+        de déploiement Terraform et de lui fournir un fichier CSV contenant le nom et le prénom
+        des étudiants afin de générer un identifiant et un mot de passe unique à chaque élève.
       </p>
 
       <div class="section-title marginTop">
@@ -972,7 +994,12 @@
       </div>
 
       <p class="marginTop textJustify textIndent">
-        blblblbl
+      Au cours de ce stage, j'ai eu l'opportunité de travailler sur un projet essentiel pour le campus 
+      Beaupeyrat : la création de machines virtuelles (VMs) avec Proxmox et l'optimisation de leur 
+      déploiement à l'aide de Terraform. Cette expérience m'a permis d'acquérir des compétences 
+      techniques précieuses et de développer une réflexion approfondie sur l'optimisation des processus 
+      d'infrastructure en tant que code (IaC). Le distanciel m'a également permis de pouvoir développer
+      mon autonomie concernant la recherche et l'apprentissage de nouveaux outils.
       </p>
 
     </div>
@@ -990,70 +1017,70 @@
       <div class="row">
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
+            <div class="icon"><img src="assets/img/debian.jpg" class="imgDocu"></div>
             <h4><?php echo "<a href='documentation.php?id=1'>"; ?> Mise en place d'un réseau informatique</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
+            <div class="icon"><img src="assets/img/lxc.png" class="imgDocu"></div>
             <h4><?php echo "<a href='documentation.php?id=2'>"; ?>Installation et mise en place de LXC</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
+            <div class="icon"><img src="assets/img/lamp.png" class="imgDocu"></div>
             <h4><?php echo "<a href='documentation.php?id=3'>"; ?>Installation et mise en place de LAMP</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
+            <div class="icon"><img src="assets/img/dns.png" class="imgDocu"></div>
             <h4><?php echo "<a href='documentation.php?id=4'>"; ?>Installation et configuration DNS</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
+            <div class="icon"><img src="assets/img/rsync.png" class="imgDocu"></div>
             <h4><?php echo "<a href='documentation.php?id=5'>"; ?>Solution de sauvegarde Rsync/Cron</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
+            <div class="icon"><img src="assets/img/ftp.jpg" class="imgDocu"></div>
             <h4><?php echo "<a href='documentation.php?id=6'>"; ?>Mise en place d'un serveur FTP</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
+            <div class="icon"><img src="assets/img/apache.png" class="imgDocu"></div>
             <h4><?php echo "<a href='documentation.php?id=7'>"; ?>Mise en place des Virtual Hosts avec le service Apache2</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
+            <div class="icon"><img src="assets/img/ssl.png" class="imgDocu"></div>
             <h4><?php echo "<a href='documentation.php?id=8'>"; ?>Chiffrement des communications HTTP et FTP avec SSL/TLS</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
+            <div class="icon"><img src="assets/img/pare-feu.png" class="imgDocu"></div>
             <h4><?php echo "<a href='documentation.php?id=9'>"; ?>Mise en place d'un pare-feu / filtrage des flux</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
+            <div class="icon"><img src="assets/img/isc.jpg" class="imgDocu"></div>
             <h4><?php echo "<a href='documentation.php?id=10'>"; ?>Mise en place d'un serveur DHCP</a></h4>
           </div>
         </div>
@@ -1065,95 +1092,113 @@
       <div class="row">
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
+            <div class="icon"><img src="assets/img/proxmox.png" class="imgDocu"></div>
             <h4><?php echo "<a href='documentation.php?id=11'>"; ?>Installation et configuration de Proxmox VE</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
+            <div class="icon"><img src="assets/img/gpg.jpg" class="imgDocu"></div>
             <h4><?php echo "<a href='documentation.php?id=12'>"; ?>Installation de clés GPG et configuration de la commande sudo</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
+            <div class="icon"><img src="assets/img/clonezilla.jpg" class="imgDocu"></div>
             <h4><?php echo "<a href='documentation.php?id=13'>"; ?>Récupération d'une configuration avec Clonezilla</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
+            <div class="icon"><img src="assets/img/backuppc.png" class="imgDocu"></div>
             <h4><?php echo "<a href='documentation.php?id=14'>"; ?>Mise en place d'un serveur de sauvegarde</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
+            <div class="icon"><img src="assets/img/mysql.png" class="imgDocu"></div>
             <h4><?php echo "<a href='documentation.php?id=15'>"; ?>Configuration d'un serveur de bases de données</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
+            <div class="icon"><img src="assets/img/isc.jpg" class="imgDocu"></div>
             <h4><?php echo "<a href='documentation.php?id=16'>"; ?>Configuration IP automatique de clients</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
+            <div class="icon"><img src="assets/img/isc.jpg" class="imgDocu"></div>
             <h4><?php echo "<a href='documentation.php?id=17'>"; ?>DHCP Failover et Load Balancing</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
+            <div class="icon"><img src="assets/img/dns.png" class="imgDocu"></div>
             <h4><?php echo "<a href='documentation.php?id=18'>"; ?>Mise en place d'un serveur de noms</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
+            <div class="icon"><img src="assets/img/nginx.png" class="imgDocu"></div>
             <h4><?php echo "<a href='documentation.php?id=19'>"; ?>Mise en place des applications Web avec Nginx</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
+            <div class="icon"><img src="assets/img/ftp.jpg" class="imgDocu"></div>
             <h4><?php echo "<a href='documentation.php?id=20'>"; ?>Transfert de fichier / Stockage NAS</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
+            <div class="icon"><img src="assets/img/ssl.png" class="imgDocu"></div>
             <h4><?php echo "<a href='documentation.php?id=21'>"; ?>Chiffrement des communications avec SSL/TLS</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
+            <div class="icon"><img src="assets/img/opnsense.jpg" class="imgDocu"></div>
             <h4><?php echo "<a href='documentation.php?id=22'>"; ?>Mise en place d'un pare-feu OPNsense</a></h4>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
+            <div class="icon"><img src="assets/img/zabbix.png" class="imgDocu"></div>
             <h4><?php echo "<a href='documentation.php?id=23'>"; ?>Supervision de l'infrastructure avec Zabbix</a></h4>
           </div>
         </div>
 
+      </div>
+
+      <p class="section-title gsb">Situations professionnelles</p>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="icon-box">
+            <div class="icon"><img src="assets/img/lxc.png" class="imgDocu"></div>
+            <h4><?php echo "<a href='documentation.php?id=24'>"; ?>SP 1 : Mise en place d'un serveur web et sauvegarde des fichiers</a></h4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="icon-box">
+            <div class="icon"><img src="assets/img/lxc.png" class="imgDocu"></div>
+            <h4><?php echo "<a href='documentation.php?id=25'>"; ?>SP 2 : Sécurisation, load balancing et supervision du serveur web</a></h4>
+          </div>
+        </div>
       </div>
 
     </div>
@@ -1202,6 +1247,19 @@
               <p>MOOC de l'ANSSI</p>
               <div class="portfolio-links">
                 <a href="assets/img/certifications/certif_anssi.png" data-gallery="portfolioGalleryCyber" class="portfolio-lightbox" title="Certification Amazon Web Services sur les fondamentaux du Cloud"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-cyber filter-network">
+          <div class="portfolio-wrap">
+            <img src="assets/img/certifications/udemy_logo.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>UDEMY</h4>
+              <p>Ethical Hacking for Beginners</p>
+              <div class="portfolio-links">
+                <a href="assets/img/certifications/udemy.jpg" data-gallery="portfolioGalleryCyber" class="portfolio-lightbox" title="Certification sur les bases du hacking éthique"><i class="bx bx-plus"></i></a>
               </div>
             </div>
           </div>

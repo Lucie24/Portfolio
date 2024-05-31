@@ -217,7 +217,7 @@
                   <p class='textCenter'>Configuration d'un serveur de bases de données</p>
                 </div>
 
-                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
+                <p class='marginBottom textCenter'>Dans cette mission, nous installerons un serveur de bases de données MySQL.</p>";
                 break;
               case 16:
                 echo 
@@ -281,8 +281,32 @@
                   <p class='textCenter'>Supervision de l'infrastructure avec Zabbix</p>
                 </div>
 
-                <p class='marginBottom textCenter'>Dans cette mission, nous </p>";
-                break;               
+                <p class='marginBottom textCenter'>Dans cette mission, nous mettrons en place la supervision de notre serveur web à l'aide de
+                l'outil Zabbix. Nous lierons ensuite les alertes de notre outil à un bot Discord, afin de recevoir les notifications dans un
+                salon dédié.</p>";
+                break; 
+                
+              case 24:
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Situation Professionnelle 1 : Mise en place d'un serveur web et sauvegarde des fichiers</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette situation professionnelle, nous mettrons en place un serveur web et adapterons
+                les services nécessaires (DNS, DHCP, BDD et Pare-feu). Nous mettrons également en place la sauvegarde du serveur web afin de 
+                prévenir tout risque de perte définitive de données.</p>";
+                break;
+
+              case 25:
+                echo 
+                "<div class='section-title'>
+                  <p class='textCenter'>Situation Professionnelle 2 : Sécurisation, load balancing et supervision du serveur web</p>
+                </div>
+
+                <p class='marginBottom textCenter'>Dans cette situation professionnelle, nous créerons un second serveur web et mettrons
+                en place du load balancing à l'aide d'un reverse proxy HA Proxy. Ensuite, nous sécuriserons nos serveurs web en mettant en 
+                place la solution IPS Fail2ban. Enfin, nous mettrons en place la supervision de nos serveurs web à l'aide de l'outil Zabbix.</p>";
+                break;
             }
 
             echo '<iframe src="assets/pdf/' . $id . '.pdf" width="500" height="800vmax" allowfullscreen webkitallowfullscreen>';
